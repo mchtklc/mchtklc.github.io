@@ -1,0 +1,1 @@
+$(function(){function a(){0!==window.location.pathname.indexOf("/in/")&&geoUtils.isUserIn({country_code:"IN"}).then(function(a){a&&(window.location.pathname="/in/retail/")}).catch(function(a){console.error(a)})}a()});

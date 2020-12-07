@@ -1,0 +1,1 @@
+$(function(){function a(){webutils.lockTopNavigation(),b(),c()}function b(){window.addEventListener("load",function(){webutils.trackIntent("Pricing")})}function c(){$(".js-faq-expand").on("click",function(a){a.stopPropagation(),$thisAccordion=$(this),$faqContainer=$(".js-faq-container"),$thisAccordion.toggleClass("active"),$faqContainer.toggleClass("active")})}a()});

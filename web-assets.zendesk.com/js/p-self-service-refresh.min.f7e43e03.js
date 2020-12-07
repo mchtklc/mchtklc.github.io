@@ -1,0 +1,1 @@
+$(function(){function a(){webutils.isFirefox()?$hero.addClass("vending-slide-14"):LazyloadSlideshow.loadAndPlay("js-vending-slide",100,1,1e3)}a()});

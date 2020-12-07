@@ -1,0 +1,1 @@
+!function(){window._wq=window._wq||[],_wq.push({id:"_all",options:{popover:!0,popoverContent:"html",playButton:!1,popoverOverlayOpacity:.8,popoverSize:"960x568"}})}();

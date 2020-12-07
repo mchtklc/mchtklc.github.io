@@ -1,0 +1,1 @@
+function initTracking(){var a=$(".js-social-block"),b=a.find("a");b.on("click",function(){var a=$(this),b=a.attr("data-network");b&&window.dataLayer.push({event:"social-share-link",socialNetwork:b})})}function init(){initTracking()}window.jQuery?$(init):window.addEventListener("load",init);

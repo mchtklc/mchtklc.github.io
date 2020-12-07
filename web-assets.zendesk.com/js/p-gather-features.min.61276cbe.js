@@ -1,0 +1,1 @@
+$(function(){function a(){if(!webutils.isMobile()&&"undefined"!=typeof skrollr){skrollr.init({forceHeight:!1})}}a()});

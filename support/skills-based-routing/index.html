@@ -1,0 +1,681 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js no-pass-type ie6 oldie" id="unsupported" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js no-pass-type ie7 oldie" id="unsupported" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js no-pass-type ie8 oldie" id="unsupported" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js no-pass-type ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+<!-- Mirrored from www.zendesk.com/support/skills-based-routing/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Nov 2020 13:42:57 GMT -->
+<head>
+<title>Skills-Based Routing | Zendesk</title>
+<script>
+    dataLayer = [];
+  </script>
+<script async src="../../../web-assets.zendesk.com/js/analytics.min.b5965a74.js"></script>
+<script async src="http://reveal.clearbit.com/v1/companies/reveal?authorization=pk_9373fb5a1892030e7c83b2c5989f44d1&amp;variable=reveal"></script>
+<script src="../../scripts/optimizely.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<meta name="google-site-verification" content="2q8u-0_6HxJZdS7l7LYlf-WDEYwIPvdJ_XVujkTFNCY" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../../../web-assets.zendesk.com/css/screen_i18n.min.80cc49b5.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="dns-prefetch" href="http://d16cvnquvjw7pr.cloudfront.net/">
+<link rel="dns-prefetch" href="http://ajax.googleapis.com/">
+<link rel="shortcut icon" href="http://d1eipm3vz40hy0.cloudfront.net/images/logos/zendesk-favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../d26a57ydsghvgx.cloudfront.net/www/public/assets/images/logos/zendesk144.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../../d26a57ydsghvgx.cloudfront.net/www/public/assets/images/logos/zendesk114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../../d26a57ydsghvgx.cloudfront.net/www/public/assets/images/logos/zendesk72.png">
+<link rel="apple-touch-icon-precomposed" href="../../../d26a57ydsghvgx.cloudfront.net/www/public/assets/images/logos/zendesk57.png">
+<meta property="og:image" content="https://d16cvnquvjw7pr.cloudfront.net/images/blog/zendesk-default-placeholder.jpg" />
+<meta category="og:category" content="Tier_two" />
+<meta name="description" content="Skills-based routing gets tickets to the right agent based on their expertise to ensure that they are served tickets that they know how to solve." />
+<link rel="canonical" href="../../enterprise/skills-based-routing/index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Skills-Based Routing - Zendesk" />
+<meta property="og:description" content="Skills-based routing gets tickets to the right agent based on their expertise to ensure that they are served tickets that they know how to solve." />
+<meta property="og:url" content="https://www.zendesk.com/enterprise/skills-based-routing/" />
+<meta property="og:site_name" content="Zendesk" />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel='https://api.w.org/' href='../../wp-json/index.html' />
+<link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed7dab?url=http%3A%2F%2Fwww.zendesk.com%2Fenterprise%2Fskills-based-routing%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embedc42d?url=http%3A%2F%2Fwww.zendesk.com%2Fenterprise%2Fskills-based-routing%2F&amp;format=xml" />
+<meta name="twitter:card" value="summary" />
+<meta name="twitter:url" value="https://www.zendesk.com/enterprise/skills-based-routing/" />
+<meta name="twitter:title" value="Skills-Based Routing | Zendesk" />
+<meta name="twitter:description" value="Skills-based routing gets tickets to the right agent based on their expertise to ensure that they are served tickets that they know how to solve." />
+<meta name="twitter:image" value="https://d1eipm3vz40hy0.cloudfront.net/images/social/twitter-zendesk.jpg" />
+<meta name="twitter:site" value="@Zendesk" />
+<link rel="alternate" hreflang="ru" href="https://www.zendesk.com.ru/support/skills-based-routing/" />
+<link rel="alternate" hreflang="nl" href="https://www.zendesk.nl/support/skills-based-routing/" />
+<link rel="alternate" hreflang="it" href="https://www.zendesk.it/support/skills-based-routing/" />
+<link rel="alternate" hreflang="es-ES" href="https://www.zendesk.es/support/skills-based-routing/" />
+<link rel="alternate" hreflang="es" href="https://www.zendesk.com.mx/support/skills-based-routing/" />
+<link rel="alternate" hreflang="pt" href="https://www.zendesk.com.br/support/skills-based-routing/" />
+<link rel="alternate" hreflang="ja" href="https://www.zendesk.co.jp/support/skills-based-routing/" />
+<link rel="alternate" hreflang="fr" href="https://www.zendesk.fr/support/skills-based-routing/" />
+<link rel="alternate" hreflang="de" href="https://www.zendesk.de/support/skills-based-routing/" />
+<link rel="alternate" hreflang="ko" href="https://www.zendesk.kr/support/skills-based-routing/" />
+<link rel="alternate" hreflang="zh-TW" href="https://www.zendesk.tw/support/skills-based-routing/" />
+<link rel="alternate" hreflang="zh-HK" href="https://www.zendesk.hk/support/skills-based-routing/" />
+<link rel="alternate" hreflang="th-TH" href="../../th/support/skills-based-routing/index.html" />
+<link rel="alternate" hreflang="en-GB" href="https://www.zendesk.co.uk/support/skills-based-routing/" />
+<link rel="alternate" hreflang="en" href="index.html" />
+<link rel="alternate" hreflang="x-default" href="index.html" />
+<link href="../../../web-assets.zendesk.com/css/single-tier-two.min.8bd666b7.css" media="all" rel="stylesheet" type="text/css" /></head>
+<body data-useragent class="lang-en responsive " lang="en-US">
+<script>
+  function loadJS(u) {
+    var r = document.getElementsByTagName("script")[0],
+      s = document.createElement("script");
+    s.src = u;
+    r.parentNode.insertBefore(s, r);
+  }
+
+  if (!window.HTMLPictureElement || document.msElementsFromPoint) {
+    loadJS('../../../web-assets.zendesk.com/js/vendor/lazysizes/ls.respimg.min.js');
+  }
+</script>
+<header class="global-header " role="banner">
+<div class="container nav-container">
+<nav class="secondary-nav">
+<ul class="menu SL_swap" id="smartling-secondary-nav">
+<li><a class="secondary-link" href="../../login/index.html">Log in</a></li>
+<li class="has-dropdown">
+<a class="secondary-link open-dropdown js-open-dropdown" href="#">Product Support<span class="ent-text"></span></a>
+<ul class="dropdown dropdown-secondary">
+<li class="list-item"><a href="https://help.zendesk.com/hc/en-us/">Zendesk Help Center</a></li>
+<li class="list-item"><a href="https://support.zendesk.com/hc/en-us/">Support Help Center</a></li>
+<li class="list-item"><a href="https://support.zendesk.com/hc/en-us/categories/204155808/">Guide Help Center</a></li>
+<li class="list-item"><a href="https://chat.zendesk.com/hc/en-us/">Chat Help Center</a></li>
+<li class="list-item"><a href="https://support.zendesk.com/hc/en-us/categories/204155828/">Talk Help Center</a></li>
+<li class="list-item"><a href="https://connect.zendesk.com/hc/en-us/">Connect Help Center</a></li>
+<li class="list-item"><a href="https://explore.zendesk.com/hc/en-us/">Explore Help Center</a></li>
+<li class="list-item"><a href="https://develop.zendesk.com/hc/en-us/">Developer Help Center</a></li>
+</ul>
+</li>
+<li class="has-dropdown">
+<a class="secondary-link open-dropdown js-open-dropdown" href="#">Company<span class="ent-text"></span></a>
+<ul class="dropdown dropdown-secondary">
+<li class="list-item"><a href="../../about/index.html">About us</a></li>
+<li class="list-item"><a href="../../company/press/index.html">Press</a></li>
+<li class="list-item SL_norewrite"><a href="http://investor.zendesk.com/">Investors</a></li>
+<li class="list-item SL_norewrite"><a href="../../company/events/index.html">Events</a></li>
+<li class="list-item"><a href="../../jobs/index.html">Careers</a></li>
+<li class="list-item"><a href="../../diversity-inclusion/index.html">Diversity & Inclusion</a></li>
+<li class="list-item"><a href="../../company/legal/index.html">Legal</a></li>
+</ul>
+</li>
+<li><a class="secondary-link" href="../../contact/index.html">Contact Us</a></li>
+</ul>
+<ul class="menu">
+<li class="has-dropdown">
+<div class="list list-vert secondary-menu-item language-menu">
+<a class="secondary-link open-dropdown" href="#">English</a>
+<ul class="dropdown dropdown-secondary">
+<li class="list-item"><a class="sl_norewrite" data-lang="en" href="index.html">English (US)</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="en-gb" href="https://www.zendesk.co.uk/support/skills-based-routing/">English (UK)</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="es-es" href="https://www.zendesk.es/support/skills-based-routing/">Español</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="es-la" href="https://www.zendesk.com.mx/support/skills-based-routing/">Español (LATAM)</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="pt-br" href="https://www.zendesk.com.br/support/skills-based-routing/">Português</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="fr-fr" href="https://www.zendesk.fr/support/skills-based-routing/">Français</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="de-de" href="https://www.zendesk.de/support/skills-based-routing/">Deutsch</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="it-it" href="https://www.zendesk.it/support/skills-based-routing/">Italiano</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="nl" href="https://www.zendesk.nl/support/skills-based-routing/">Nederlands</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="ja-jp" href="https://www.zendesk.co.jp/support/skills-based-routing/">日本語</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="ru-ru" href="https://www.zendesk.com.ru/support/skills-based-routing/">Pусский</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="ko-kr" href="https://www.zendesk.kr/support/skills-based-routing/">한국어</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="zh-tw" href="https://www.zendesk.tw/support/skills-based-routing/">繁體中文 (台灣)</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="zh-tw" href="https://www.zendesk.hk/support/skills-based-routing/">繁體中文 (香港特區)</a></li>
+<li class="list-item"><a class="sl_norewrite" data-lang="th-th" href="../../th/support/skills-based-routing/index.html">ไทย</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</nav>
+<div class="sticky-marker"></div>
+<div class="sticky-container js-sticky-container">
+<nav class="primary-nav">
+<ul class="menu logo-items">
+<li class="logo">
+<a href="../../index.html" class="zendesk-logo">Zendesk. Be the company your customers want you to be.</a>
+</li>
+<li class="toggle-mobile-menu js-toggle-mobile-menu show-mobile-only">
+<a href="#">Toggle Mobile Menu</a>
+</li>
+</ul>
+<ul class="menu nav-items">
+<li class="has-dropdown">
+<span class="open-dropdown js-open-dropdown primary-link">Products</span>
+<div class="dropdown dropdown-primary dropdown-wide">
+<div class="dropdown-inner">
+<div class="columns SL_swap" id="global-header-products-dropdown">
+<div class="column featured">
+<a href="../../suite/index.html" class="block-link">
+<div class="link-header">
+<div class="logo zendesk-suite-logo">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="56px" height="56px" viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
+<g id="animated">
+<path class="st0" d="M0,56h56V0H0V56z" />
+<path class="st1 anim-1" d="M27.1,18.4c0,3.2-2.6,5.9-5.9,5.9s-5.9-2.6-5.9-5.9H27.1z" />
+<path class="st1 anim-2" d="M29.1,32.6V18.4h11.7L29.1,32.6z" />
+<path class="st1 anim-3" d="M15.4,37.7h11.7V23.5L15.4,37.7z" />
+<path class="st1 anim-4" d="M29.1,37.7c0-3.2,2.6-5.9,5.9-5.9s5.9,2.6,5.9,5.9H29.1z" />
+</g>
+</svg>
+</div>
+<p class="h3">The Zendesk Suite</p>
+</div>
+<p>Everything you need to be everywhere your customers are, wrapped up in one pretty package.</p>
+<p>Includes: Support, Guide, Chat, and Talk</p>
+</a>
+<a href="../../platform/index.html" class="block-link">
+<div class="link-header">
+<div class="logo zendesk-sunshine-logo"></div>
+<p class="h3">Zendesk Sunshine</p>
+</div>
+<p>The Zendesk platform. Open, flexible, and powerful enough to build the best customer experiences.</p>
+</a>
+</div>
+<div class="column product-list">
+<ul>
+<li>
+<a href="../index.html" class="block-link support">
+<div class="copy">
+<p class="h3">Support</p>
+<p>Integrated customer support</p>
+</div>
+<div class="icon product-icon support"></div>
+</a>
+</li>
+<li>
+<a href="../../guide/index.html" class="block-link guide">
+<div class="copy">
+<p class="h3">Guide</p>
+<p>Knowledge base and smart self-service</p>
+</div>
+<div class="icon product-icon guide"></div>
+</a>
+</li>
+<li>
+<a href="../../chat/index.html" class="block-link chat">
+<div class="copy">
+<p class="h3">Chat</p>
+<p>Live chat and messaging</p>
+</div>
+<div class="icon product-icon chat"></div>
+</a>
+</li>
+<li>
+<a href="../../talk/index.html" class="block-link talk">
+<div class="copy">
+<p class="h3">Talk</p>
+<p>Call center software</p>
+</div>
+<div class="icon product-icon talk"></div>
+</a>
+</li>
+</ul>
+</div>
+<div class="column product-list">
+<ul>
+<li>
+<a href="../../connect/index.html" class="block-link connect">
+<div class="copy">
+<p class="h3">Connect</p>
+<p>Proactive campaigns</p>
+</div>
+<div class="icon product-icon connect"></div>
+</a>
+</li>
+<li>
+<a href="../../explore/index.html" class="block-link explore">
+<div class="copy">
+<p class="h3">Explore</p>
+<p>Analytics and reporting</p>
+</div>
+<div class="icon product-icon explore"></div>
+</a>
+</li>
+<li>
+<a href="../../sell/index.html" class="block-link sell">
+<div class="copy">
+<p class="h3">Sell</p>
+<p>Sales force automation</p>
+</div>
+<div class="icon product-icon sell"></div>
+</a>
+</li>
+<li>
+<p class="h3 additional-ctas">Visit <a href="../../apps/index.html">The Marketplace</a> to browse Apps, Integrations, and Partners</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="primary-link" href="../../product/pricing/index.html">Pricing</a>
+</li>
+<li>
+<a class="primary-link" href="../../demo/index.html">Demo</a>
+</li>
+<li class="has-dropdown">
+<span class="open-dropdown js-open-dropdown primary-link">Solutions</span>
+<div class="dropdown dropdown-primary dropdown-wide">
+<div class="dropdown-inner">
+<div class="intro hide-mobile-only">
+<p class="subhead">Solutions</p>
+</div>
+<ul class="inline-list col-3 SL_swap" id="global-header-solutions-dropdown">
+<li>
+<a href="../../omnichannel/index.html" class="block-link">
+<p class="h3">Omnichannel support</p>
+<p>Seamless customer service across all channels</p>
+</a>
+</li>
+<li>
+<a href="../../self-service/index.html" class="block-link">
+<p class="h3">Scale with self-service</p>
+<p>Improved resolution rates, lower support costs, and happier customers</p>
+</a>
+</li>
+<li>
+<a href="../../enterprise/index.html" class="block-link">
+<p class="h3">Zendesk for Enterprise</p>
+<p>An agile solution to scale your support operations</p>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<a class="primary-link" href="../../customer-experience/index.html">Services</a>
+</li>
+<li class="has-dropdown">
+<a class="open-dropdown js-open-dropdown primary-link" href="../../resources/index.html">Resources</a>
+<div class="dropdown dropdown-primary dropdown-wide">
+<div class="dropdown-inner">
+<div class="intro hide-mobile-only">
+<p class="subhead">Resources</p>
+</div>
+<ul class="inline-list col-3 SL_swap" id="global-header-resources-dropdown">
+<li>
+<a class="block-link" href="../../resources/index.html">
+<p class="h3">Library</p>
+<p>Guides, research, videos, and resources</p>
+</a>
+</li>
+<li>
+<a class="block-link" href="../../company/events/index.html">
+<p class="h3">Events</p>
+<p>Come meet us in person</p>
+</a>
+</li>
+<li>
+<a class="block-link" href="../../partner/index.html">
+<p class="h3">Partners</p>
+<p>How to locate or become a Zendesk partner</p>
+</a>
+</li>
+<li>
+<a class="block-link" href="../../blog/index.html">
+<p class="h3">Blog</p>
+<p>News, tips, and best practices</p>
+</a>
+</li>
+<li>
+<a class="block-link" href="../webinars/index.html">
+<p class="h3">Live webinars</p>
+<p>Online events</p>
+</a>
+</li>
+<li>
+<a class="block-link" href="http://developer.zendesk.com/">
+<p class="h3">API & Developers</p>
+<p>Info for building things with Zendesk</p>
+</a>
+</li>
+<li>
+<a class="block-link" href="../../why-zendesk/customers/index.html">
+<p class="h3">Customer stories</p>
+<p>See what success with Zendesk looks like</p>
+</a>
+</li>
+<li>
+<a class="block-link" href="http://relate.zendesk.com/">
+<p class="h3">Relate by Zendesk</p>
+<p>Customers. Colleagues. Community. It's complicated.</p>
+</a>
+</li>
+<li>
+<a class="block-link" href="../../repeatcustomer/index.html">
+<p class="h3">Repeat Customer</p>
+<p>A podcast about amazing customer experiences</p>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="has-cta">
+<a class="cta primary small" href="../../register/index.html">Get started</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+<article class="tier-two">
+<section class="tier-breadcrumbs">
+<div class="bread-contain">
+<a href="../../index.html"><h6 class="home-page" style="color:#03363D">Home</h6></a><span></span><a href="../../enterprise/index.html"><h6 style="color:#03363D">Enterprise</h6></a><span></span><h6 class="current-page">Skills-Based Routing</h6> </div>
+</section>
+<section class="tier-hero" style="background-color:#03363D; background-image:url();background-size: cover;">
+<div class="col-960">
+<h1 style="color: #fff;">Skills-Based Routing</h1>
+<h4 style="color: #fff;">Get tickets to the right agent based on their expertise so that they're served a ticket they can efficiently solve, every time.
+<script src="https://fast.wistia.com/embed/medias/mt2jfpya4u.jsonp" async></script><script src="../../../fast.wistia.com/assets/external/E-v1.js" async></script><br><br><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_mt2jfpya4u videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/mt2jfpya4u/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;" /></div></div></div></div></h4>
+<div class="button-contain">
+<a href="https://zendesk.wistia.com/medias/mt2jfpya4u" class="golion-gen-btn">See how it works</a>
+</div>
+</div>
+</section>
+<section class="tier-copy">
+<div class="col-960">
+<h2>Let Zendesk Support do the heavy lifting</h2>
+<h4>Often times, customers reach out to customer support with the same issues. Assigning similar tickets to specific agents who are trained on categories of requests can help streamline complex ticket workflows. Skills-based routing enables your organization to scale and maximize team productivity simultaneously.
+</h4>
+</div>
+</section>
+<section class="tier-right-screen SL_swap" id="tier-two-right-screen-343191">
+<div class="col-960" style="border-bottom: 1px solid #ccc;">
+<div class="col-left">
+<h2>Simplify the complexities</h2>
+<p>As your company grows its customer base, the volume of tickets that come in likely increases, too. With skills-based routing, you can streamline your high ticket volume by directing tickets to the agent that’s best equipped to serve them.</p>
+</div>
+<div class="col-right">
+<img src="../../../zen-marketing-product.s3.amazonaws.com/product/routing1.png" alt="Skills-Based Routing">
+</div>
+</div>
+</section>
+<section class="tier-left-screen">
+<div class="col-960" style="border-bottom: 1px solid #ccc;">
+<div class="col-left" style="background-image:url(../../../zen-marketing-product.s3.amazonaws.com/product/marketing_site_skill_editing.png);"></div>
+<div class="col-right">
+<h2>Work even more skillfully</h2>
+<p>Whether it’s language, agent region, ticket channel or product attribute, the skills you create are flexible so that you can customize any skill category for your team. In a few steps, admins can configure ticket attributes and assign groups of agents to specific skills.
+</p>
+</div>
+</div>
+</section>
+<section class="tier-right-screen">
+<div class="col-960">
+<div class="col-left">
+<h2>Solve more requests, faster</h2>
+<p>Agents can see tickets that match their specific skills right in Views. This reduces the number of hours agents spend on manually routing tickets and finding suitable tickets to work on. <br /><br />Efficient ticket routing enables agents to specialize in certain types of tickets, which decreases overall ticket resolution time.</p>
+</div>
+<div class="col-right" style="background-image:url(../../../zen-marketing-product.s3.amazonaws.com/product/marketing_site_routing_view.png);">
+</div>
+</div>
+</section>
+<section class="tier-video">
+<div class="col-960">
+<div class="col-left" style="background-image:url(../../../zen-marketing-product.s3.amazonaws.com/product/Support/Skills%20Based%20Routing.png);">
+<a href="http://fast.wistia.net/embed/iframe/mt2jfpya4u?popover=true" class="wistia-popover[height=568,playerColor=7b796a,width=960] play-button dark">
+<span class="border"></span>
+</a>
+</div>
+<div class="col-right">
+<h2>See routing in action</h2>
+<p>Hear how skills-based routing can help boost the productivity of your agents.</p>
+</div>
+</div>
+</section>
+<section class="tier-quote">
+<div class="col-960">
+<img class="quote-logo" src="../../../zen-marketing-product.s3.amazonaws.com/product/fossil_logo.png">
+<h4>"We use a huge number of groups to route tickets. We're looking forward to having skills-based routing simplify our groups, free us up from totally reorganizing them when new workflows are added, and streamline our ticket field and view configurations."</h4>
+<h3>Zac Garcia</h3>
+<h3>Customer Care at Fossil</h3>
+</div>
+</section>
+<section class="tier-resource">
+<div class="col-960">
+<h5>More Resources</h5>
+<h2></h2>
+<ul>
+<li class=spacing-div>
+<div class="resource-img">
+<img class="resource-icon" src=../../../d26a57ydsghvgx.cloudfront.net/product/images/resources_getting_started.png>
+</div>
+<h4>GET STARTED IN SECONDS</h4>
+<p class="resource-desc">Follow these steps to start setting up skills for your agents</p>
+<a href=https://support.zendesk.com/hc/en-us/articles/360000789788-Using-skills-based-routing-Enterprise-><span>Learn more ></span></a>
+</li>
+<li class=spacing-div>
+<div class="resource-img">
+<img class="resource-icon" src=../../../d26a57ydsghvgx.cloudfront.net/product/images/resource_self-service.png>
+</div>
+<h4>BEST PRACTICES FOR ROUTING</h4>
+<p class="resource-desc">75% of Zendesk customer found that routing helped decrease ticket resolution time by enabling agents to become experts in certain tickets. </p>
+<a href=https://support.zendesk.com/hc/en-us/articles/360000860028-Best-practices-Setting-up-skills-based-routing><span>Learn more ></span></a>
+</li> </ul>
+</div>
+</section>
+</article>
+<div id="proactive-offer-container">
+</div>
+<div class="cookie-notification" id="js-cookie-notification">
+<p>By continuing to use this website, you consent to the use of cookies in accordance with our <a class="cookie-policy-link js-cookie-policy-link" href="../../company/customers-partners/cookie-policy/index.html">Cookie&nbsp;Policy</a>.</p>
+<a class="close-notice js-disable-notification" href="#"><span class="close-icon"></span></a>
+</div>
+</div>
+<div class="clearfix"></div>
+<footer class="clear">
+<div class="sitemap mega-footer SL_swap" id="smartling-mega-footer">
+<div class="col-960">
+<nav class="primary-menu-list-wrap">
+<ul id="menu-footer-navigation" class="primary-menu-list">
+<li id="smartling-nav-footer-product" class="SL_swap menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children list-parent "><a href="../index.html">OUR PRODUCTS</a>
+<div class="primary-menu-list-dropdown"><span class="pin"></span>
+<ul>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../suite/index.html">The Zendesk Suite</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../index.html">Support</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../guide/index.html">Guide</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../chat/index.html">Chat</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../talk/index.html">Talk</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../explore/index.html">Explore</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../connect/index.html">Connect</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../apps/index.html">Integrations &amp; Apps</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../embeddables/index.html">Embeddables</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../whats-new/index.html">Product Updates</a></li>
+</ul>
+</div>
+</li>
+<li id="smartling-nav-footer-features" class="SL_swap menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children list-parent "><a href="../../index.html">TOP FEATURES</a>
+<div class="primary-menu-list-dropdown"><span class="pin"></span>
+<ul>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../help-desk-software/features/ticketing-system/index.html">Ticketing System</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../guide/features/knowledge-base-software/index.html">Knowledge Base</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../guide/features/community-software/index.html">Community Forums</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../help-desk-software/index.html">Help Desk Software</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children SL_hide i18n-hide"><a href="../../internal-help-desk/it-help-desk-software/index.html">IT Help Desk</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../product/zendesk-security/index.html">Security</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../product/tech-specs/index.html">Tech Specs</a></li>
+</ul>
+</div>
+</li>
+<li id="smartling-nav-footer-resources" class="SL_swap menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children list-parent "><a href="../../resources/index.html">RESOURCES</a>
+<div class="primary-menu-list-dropdown"><span class="pin"></span>
+<ul>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="https://support.zendesk.com/hc/en-us/">Product Support</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../demo/index.html">Request a demo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../resources/index.html">Library</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children SL_norewrite"><a href="../../blog/index.html">Zendesk Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children i18n-hide"><a href="../webinars/index.html">Live webinars</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../customer-experience/training/index.html#training">Training</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children SL_hide i18n-hide"><a href="http://developer.zendesk.com/">API &#038; Developers</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../partners/index.html">Services &#038; Partners</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children SL_hide i18n-hide"><a href="../../lp/retail/index.html">For Retailers</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="https://relate.zendesk.com/">Relate by Zendesk</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../why-zendesk/customers/index.html">Customer Stories</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../customer-experience/index.html">Services</a></li>
+</ul>
+</div>
+</li>
+<li id="smartling-nav-footer-company" class="SL_swap menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children list-parent "><a href="../../about/index.html">COMPANY</a>
+<div class="primary-menu-list-dropdown"><span class="pin"></span>
+<ul>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../about/index.html">About us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../company/press/index.html">Press</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="http://investor.zendesk.com/">Investors</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../jobs/index.html">Careers</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../diversity-inclusion/index.html">Diversity & Inclusion</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children SL_hide i18n-hide"><a href="http://www.neighborfoundation.org/">Neighbor Foundation</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../contact/index.html">Contact us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../sitemap/index.html">Sitemap</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="https://status.zendesk.com/">System Status</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="https://help.zendesk.com/hc/en-us">Product Help</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../company/legal/index.html">Legal</a></li>
+</ul>
+</div>
+</li>
+<li id="smartling-nav-footer-favorites" class="SL_swap menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children list-parent "><a href="../../index.html">FAVORITE THINGS</a>
+<div class="primary-menu-list-dropdown"><span class="pin"></span>
+<ul>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../enterprise/index.html">Zendesk for Enterprise</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../startups/index.html">Zendesk for Startups</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children SL_hide i18n-hide"><a href="http://relate.zendesk.com/articles/shit-support-agents-say/">Sh*t Agents Say</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children SL_hide i18n-hide"><a href="https://www.youtube.com/watch?v=wPtnoRqQa5U">Zoe Calls Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../benchmark-your-support/index.html">Zendesk Benchmark</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../smb/index.html">Zendesk for Small Business</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../resources/gartner-magic-quadrant-crm/index.html">Gartner CRM Magic Quadrant</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children SL_hide i18n-hide"><a href="https://relate.zendesk.com/education/interview-questions-hiring-great-customer-service-reps/">Hiring Great Support Teams</a></li>
+</ul>
+</div>
+</li>
+</ul>
+<div style="clear: both;"></div>
+</nav>
+<div id="newsletter-form" class="newsletter-sub">
+<h3>Enter the Fold</h3>
+<div class="flex-container">
+<div class="form-wrapper">
+<p>Subscribe to our newsletter.</p>
+<form id="newsletter" class="js-newsletter-form-footer form-gray" method="post" name="eloquaform">
+<label class="success"><span></span>Welcome to the club!</label>
+<ul>
+<li class="error">
+<div class="depth-wrap">
+<input type="text" class="email required js-field js-footer-newsletter-email" id="owner[email]" name="owner[email]" autocomplete="email" placeholder="What&apos;s your email?" tabindex="0" /> <a class="register js-footer-newsletter-subscribe">Subscribe</a>
+</div>
+<label style="display: block; opacity: 1;"><span></span>Please enter a valid email address</label>
+</li>
+<li class="opt-in-field js-opt-in-field">
+<label class="checkbox-container">
+<input type="checkbox" class="js-opt-in-checkbox js-field" id="optinToMarketing" name="optinToMarketing" value="TRUE">
+<span class="custom-check"></span>
+Please also send me occasional emails about Zendesk products and services. (You can unsubscribe at any time.) </label>
+</li>
+<li style="display:none">
+<input type="hidden" name="elqCustomerGUID" id="elqCustomerGUID" value="" /><input type="hidden" name="elqCookieWrite" id="elqCookieWrite" value="0" /><input type="hidden" name="elqSiteId" id="elqSiteId" value="2136619493" /><input type="hidden" name="elqCampaignId" id="elqCampaignId" value="" /><input type="hidden" name="elqFormName" id="elqFormName" value="WebsiteNewsletterSignup_new" /> <input type="hidden" name="Web_Offer_Name__c" id="Web_Offer_Name__c" value="Skills-Based Routing" /><input type="hidden" name="GA_Medium" id="GA_Medium" value="" /><input type="hidden" name="GA_Source" id="GA_Source" value="" /><input type="hidden" name="Opti_ID" id="Opti_ID" value="" /><input type="hidden" name="Opti_Variation_ID" id="Opti_Variation_ID" value="" /><input type="hidden" name="trial_extras[Opti_ID]" id="trial_extras[Opti_ID]" value="" /><input type="hidden" name="trial_extras[Opti_Variation_ID]" id="trial_extras[Opti_Variation_ID]" value="" /><input type="hidden" name="trial_extras[Inferred_City]" id="trial_extras[Inferred_City]" value="" /><input type="hidden" name="trial_extras[Inferred_State]" id="trial_extras[Inferred_State]" value="" /><input type="hidden" name="trial_extras[Inferred_CCode]" id="trial_extras[Inferred_CCode]" value="" /><input type="hidden" name="trial_extras[Inferred_Country]" id="trial_extras[Inferred_Country]" value="" /><input type="hidden" name="trial_extras[Inferred_Zip]" id="trial_extras[Inferred_Zip]" value="" /><input type="hidden" name="trial_extras[Inferred_Region]" id="trial_extras[Inferred_Region]" value="" /><input type="hidden" name="trial_extras[Inferred_IP_Address]" id="trial_extras[Inferred_IP_Address]" value="" /><input type="hidden" name="address[postal]" id="address[postal]" value="" /><input type="hidden" name="location[Inferred_IP_Address]" id="location[Inferred_IP_Address]" value="" /><input type="hidden" name="trial_extras[DB_City__c]" id="trial_extras[DB_City__c]" value="" /><input type="hidden" name="trial_extras[DB_State__c]" id="trial_extras[DB_State__c]" value="" /><input type="hidden" name="trial_extras[DB_CCode__c]" id="trial_extras[DB_CCode__c]" value="" /><input type="hidden" name="trial_extras[Country__c]" id="trial_extras[Country__c]" value="" /><input type="hidden" name="trial_extras[DB_Zip__c]" id="trial_extras[DB_Zip__c]" value="" /><input type="hidden" name="trial_extras[Region__c]" id="trial_extras[Region__c]" value="" /><input type="hidden" name="trial_extras[First_Touch__c]" id="trial_extras[First_Touch__c]" /><input type="hidden" name="trial_extras[Last_Touch__c]" id="trial_extras[Last_Touch__c]" /><input type="hidden" name="industry" id="industry" value="" /><input type="hidden" name="MailingCountry" id="MailingCountry" value="" /><input type="hidden" name="owner[name]" id="owner[name]" value="" /> </li>
+</ul>
+</form>
+</div>
+<div class="l-island l-island-right social clear SL_swap" id="sl-footer-social">
+<span itemscope itemtype="https://schema.org/Organization">
+<link itemprop="url" href="../../index.html">
+<a itemprop="sameAs" href="http://plus.google.com/+zendesk" class="notranslate ent-text ico-gplus" rel="publisher">&#59639;</a>
+<a itemprop="sameAs" href="http://www.facebook.com/zendesk" class="notranslate ent-text ico-facebook">&#59636;</a>
+<a itemprop="sameAs" href="http://www.twitter.com/zendesk" class="notranslate ent-text ico-twitter">&#59634;</a>
+<a itemprop="sameAs" href="http://www.linkedin.com/company/zendesk" class="notranslate ent-text ico-linkedin">&#59645;</a>
+<a itemprop="sameAs" href="http://www.slideshare.net/zendesk" class="notranslate ent-text ico-slideshare"></a>
+<a itemprop="sameAs" href="http://instagram.com/zendesk/" class="notranslate ent-text ico-instagram">&#59657;</a>
+<a itemprop="sameAs" href="http://www.snapchat.com/add/zendesk" class="notranslate ent-text ico-snapchat"></a>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="legal clear">
+<div class="col-960 SL_swap" id="sl-footer-policy">
+<a href="../../company/customers-partners/terms-of-use/index.html">Terms of Use</a>
+<a href="../../company/customers-partners/privacy-policy/index.html">Privacy Policy</a>
+<a href="../../company/customers-partners/cookie-policy/index.html">Cookie Policy</a>
+<a href="../../legal/index.html">&copy;Zendesk 2018</a>
+</div>
+</div>
+<div class="clearfix"></div>
+</footer>
+<script src="../../../d2wy8f7a9ursnm.cloudfront.net/bugsnag-2.min.js" data-apikey="14b4da2b1698aa9ce8da80a183366f26"></script>
+<script src="../../../web-assets.zendesk.com/js/plugins.min.476fbf51.js"></script><script src="../../../web-assets.zendesk.com/js/cookieUtils.min.e7207bed.js"></script><script src="../../../web-assets.zendesk.com/js/formUtils.min.b9fdc32d.js"></script><script src="../../../web-assets.zendesk.com/js/webutils.min.b34913a7.js"></script><script src="../../../web-assets.zendesk.com/js/geoUtils.min.e08c327e.js"></script>
+<script type="text/javascript">
+  webutils.globalNav.init();
+  webutils.gauge();
+  webutils.loadEloqua();
+</script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script charset="ISO-8859-1" src="../../../fast.wistia.com/assets/external/popover-v1.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	if ( $('.tier-resource li').first().hasClass("spacing-div")) {
+		$('.tier-resource li').css("padding-top", "100px" );
+	} else {
+		$('.tier-resource img').hide();
+	}
+});
+
+</script>
+<script type="application/ld+json">
+  {
+	      "@context": "http://schema.org",
+	      "@type": "BreadcrumbList",
+	      "itemListElement": [{
+	        "@type": "ListItem",
+	        "position": 1,
+	        "item": {
+	          "@id": "https://www.zendesk.com/",
+	          "name": "Home"
+	        }
+	      },{
+	        "@type": "ListItem",
+	        "position": 2,
+	        "item": {
+	          "@id": "https://www.zendesk.com/enterprise/",
+	          "name": "Enterprise"
+	        }
+	      },{
+	            "@type": "ListItem",
+	            "position": 3,
+	            "item": {
+	              "@id": "https://www.zendesk.com/enterprise/skills-based-routing/",
+	              "name": "Skills-Based Routing"
+	            }
+	          }
+	      ]
+	  }</script>
+<link href="../../../web-assets.zendesk.com/css/ouibounce.min.fe2c46bb.css" media="all" rel="stylesheet" type="text/css" />
+<div id="ouibounce-modal">
+<div class="dim-backg"></div>
+<div class="center-modal">
+<div class="x-close"></div>
+<div class="content">
+<h2>Join us for a live product demo</h2>
+<h3>We'll walk you through the product family and answer any questions you have about Zendesk.</h3>
+</div>
+<a href="../../demo/index.html#demo-form" class="sched-demo btn-primary-cta filled">Schedule a demo</a>
+</div>
+</div>
+<script src="../../../web-assets.zendesk.com/js/ouibounce.min.f91b9be1.js"></script><script src="../../../web-assets.zendesk.com/js/ouibounce-config.min.41a2de14.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ff5203fc13","applicationID":"4220676","transactionName":"Z1FSZ0NYWURXBkJRV14bcVBFUFhZGRZfVl9cUR1HWFxFaEISWQ==","queueTime":3,"applicationTime":568,"atts":"SxZREQtCSko=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from www.zendesk.com/support/skills-based-routing/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Nov 2020 13:42:58 GMT -->
+</html>

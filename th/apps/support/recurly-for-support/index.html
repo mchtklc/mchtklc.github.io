@@ -1,0 +1,291 @@
+<!DOCTYPE html><html>
+<!-- Mirrored from www.zendesk.com/th/apps/support/recurly-for-support/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Nov 2020 13:41:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta name="viewport" content="width=device-width" /><meta charset="utf-8" /><meta property="X-Frame-Options" content="SAMEORIGIN" /><meta property="X-XSS-Protection" content="1" /><meta property="Strict-Transport-Security" content="max-age=9999" /><title>Recurly for Support App Integration with Zendesk Support</title><meta name="description" content="Integrate the Recurly for Support app into Zendesk Support. Serve your subscribers faster and better" /><meta name="next-head-count" content="7" /><link rel="preload" href="../../../../_next/static/css/233884ff.55b16a4b.chunk.css" as="style" /><link rel="stylesheet" href="../../../../_next/static/css/233884ff.55b16a4b.chunk.css" /><link rel="preload" href="../../../../_next/static/css/styles.82ad244e.chunk.css" as="style" /><link rel="stylesheet" href="../../../../_next/static/css/styles.82ad244e.chunk.css" /><link rel="preload" href="../../../../_next/static/29LRHooJ0P6gaZhIsIfnx/pages/_app.js" as="script" /><link rel="preload" href="../../../../_next/static/29LRHooJ0P6gaZhIsIfnx/pages/apps/%5bproduct%5d/%5bappName%5d.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/commons.88bdd1543a6d5ae176b7.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/27.98ef05b8f446a1091ded.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/framework.8a7866bc6253aacf096f.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/95b98745c7115a4e6236ad090c96001665718c45.a3f2e31adace64fc5ddf.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/c8f7fe3b0e41be846d5687592cf2018ff6e22687.16afa8517d8f34b84945.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/26.f594aec5f2f4109d9ecf.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/11.1137e0f3cd94da04795e.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/23.82d41c0ee5564d7ee025.js" as="script" /><link rel="preload" href="../../../../_next/static/runtime/webpack-c9d603b1de342871447a.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/framework.8a7866bc6253aacf096f.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/commons.88bdd1543a6d5ae176b7.js" as="script" /><link rel="preload" href="../../../../_next/static/runtime/main-bc48641cfac57aa27408.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/233884ff.4c419f4b16a96bca7647.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/d11a3e54361b8036a3af72cd0f27851824996e1b.ee38db70f983ce8da346.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/33d139dd6189b5020ce37b767722d1b58c95ac2f.d1e8d2ad392f328d678d.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/264d038de7f3155b9a33c03085a891d102c73bc3.55aa30146cb8608b7970.js" as="script" /><link rel="preload" href="../../../../_next/static/chunks/styles.58471afdb7a4755dfa0b.js" as="script" /><meta http-equiv="Content-Language" content="th-TH" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:locale" content="th_TH" />
+</head><body class="smartling-th"><div id="__next"><header class="global-header js-global-header" role="banner" aria-label="global-header"><div class="container nav-container"><nav class="secondary-nav show-small-up" aria-label="global-navigation-secondary"><ul class="menu SL_swap" id="smartling-secondary-nav"><li><a class="secondary-link" href="../../../login/index.html">เข้าสู่ระบบ</a></li>
+<li><a class="secondary-link" href="https://support.zendesk.com/hc/en-us" target="_blank">การสนับสนุนด้านผลิตภัณฑ์</a></li>
+<li class="has-dropdown">
+<a class="secondary-link open-dropdown js-open-dropdown" href="#">บริษัท<span class="ent-text"></span></a>
+<ul class="dropdown dropdown-secondary">
+<li class="list-item">
+<a class="block-link" href="../../../about/index.html">เกี่ยวกับเรา</a>
+</li>
+<li class="list-item">
+<a class="block-link" href="../../../company/press/index.html">สื่อมวลชน</a>
+</li>
+<li class="list-item SL_norewrite">
+<a class="block-link" href="https://investor.zendesk.com/" target="_blank">นักลงทุน</a>
+</li>
+<li class="list-item SL_norewrite">
+<a class="block-link" href="../../../../company/events/index.html">อีเวนท์</a>
+</li>
+<li class="list-item">
+<a class="block-link" href="https://jobs.zendesk.com/" target="_blank">ตำแหน่งงาน</a>
+</li>
+<li class="list-item">
+<a class="block-link" href="../../../diversity-inclusion/index.html">ความหลากหลายและความครอบคลุมทุกกลุ่มคน</a>
+</li>
+<li class="list-item">
+<a class="block-link" href="../../../social-impact/index.html">Social impact</a>
+</li>
+<li class="list-item">
+<a class="block-link" href="../../../company/legal/index.html">กฎหมาย</a>
+</li> </ul>
+</li>
+<li><a class="secondary-link" href="../../../contact/index.html">ติดต่อเรา</a></li></ul><ul class="menu"><li class="has-dropdown"><div class="list list-vert secondary-menu-item language-menu initialized"><a class="secondary-link open-dropdown" href="#">English </a><ul class="dropdown dropdown-secondary"><li class="list-item"><a class="sl_opaque block-link" data-lang="en-gb" href="https://www.zendesk.co.uk/">English (UK)</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="es-es" href="https://www.zendesk.es/">Español</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="es-la" href="https://www.zendesk.com.mx/">Español (LATAM)</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="pt-br" href="https://www.zendesk.com.br/">Português</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="fr-fr" href="https://www.zendesk.fr/">Français</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="de-de" href="https://www.zendesk.de/">Deutsch</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="it-it" href="https://www.zendesk.it/">Italiano</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="nl" href="https://www.zendesk.nl/">Nederlands</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="ja-jp" href="https://www.zendesk.co.jp/">日本語</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="ru-ru" href="https://www.zendesk.com.ru/">Pусский</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="ko-kr" href="https://www.zendesk.kr/">한국어</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="zh-tw" href="https://www.zendesk.tw/">繁體中文 (台灣)</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="zh-tw" href="https://www.zendesk.hk/">繁體中文 (香港特區)</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="th-th" href="../../../index.html">ไทย</a></li></ul></div></li></ul></nav><div class="sticky-marker js-sticky-marker" style="min-height:0"></div><div class="sticky-container js-sticky-container"><nav class="primary-nav" aria-label="global-navigation-primary"><ul class="menu logo-items"><li class="logo"><a href="../../../index.html" class="zendesk-logo">Zendesk เป็นบริษัทที่ลูกค้าอยากให้เป็น</a></li><li class="toggle-mobile-menu show-mobile-only js-toggle-mobile-menu js-hide-body-scroll"><a href="#">เปิดปิดเมนูอุปกรณ์พกพา</a></li></ul><ul class="menu nav-items "><li class="has-dropdown"><span class="open-dropdown js-open-dropdown primary-link " tabindex="0">ผลิตภัณฑ์</span><div class="dropdown dropdown-primary dropdown-wide "><div class="dropdown-inner"><div class="columns SL_swap" id="global-header-products-dropdown"><div class="column column-8 products">
+<div class="intro">
+<span class="subhead">ผลิตภัณฑ์</span>
+</div>
+<div class="columns product-list">
+<div class="column">
+<a href="../../../support-suite/index.html" class="block-link">
+<div class="copy">
+<p class="h3">Support Suite</p>
+<p>ประสบการณ์แห่งบริการเต็มรูปแบบ</p>
+</div>
+</a>
+</div>
+<div class="column">
+<a href="../../../sales-suite/index.html" class="block-link">
+<div class="copy">
+<p class="h3">Sales Suite</p>
+<p>โซลูชันเพื่อการขายที่ทันสมัย</p>
+</div>
+</a>
+</div>
+</div>
+<div class="intro"></div>
+<div class="columns product-list">
+<ul class="column">
+<li>
+<a href="../../../support/index.html" class="block-link support">
+<div class="copy">
+<p class="h3">Support</p>
+<p>การสนับสนุนลูกค้าแบบรวมศูนย์</p>
+</div>
+<div class="icon product-icon support"></div>
+</a>
+</li>
+<li>
+<a href="../../../guide/index.html" class="block-link guide">
+<div class="copy">
+<p class="h3">Guide</p>
+<p>ฐานความรู้และการบริการตนเอง</p>
+</div>
+<div class="icon product-icon guide"></div>
+</a>
+</li>
+<li>
+<a href="../../../chat/index.html" class="block-link chat">
+<div class="copy">
+<p class="h3">Chat</p>
+<p>ไลฟ์แชทและการส่งข้อความ</p>
+</div>
+<div class="icon product-icon chat"></div>
+</a>
+</li>
+<li>
+<a href="../../../talk/index.html" class="block-link talk">
+<div class="copy">
+<p class="h3">Talk</p>
+<p>ซอฟต์แวร์สำหรับศูนย์ประสานงานบริการ</p>
+</div>
+<div class="icon product-icon talk"></div>
+</a>
+</li>
+</ul>
+<ul class="column">
+<li>
+<a href="../../../sell/index.html" class="block-link sell">
+<div class="copy">
+<p class="h3">Sell</p>
+<p>CRM การขาย</p>
+</div>
+<div class="icon product-icon sell"></div>
+</a>
+</li>
+<li>
+<a href="../../../explore/index.html" class="block-link explore">
+<div class="copy">
+<p class="h3">Explore</p>
+<p>การวิเคราะห์ข้อมูลและการรายงานผล</p>
+</div>
+<div class="icon product-icon explore"></div>
+</a>
+</li>
+<li>
+<a href="../../../gather/index.html" class="block-link gather">
+<div class="copy">
+<p class="h3">Gather</p>
+<p>ฟอรัมชุมชน</p>
+</div>
+<div class="icon product-icon gather"></div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="column column-4 accent">
+<div class="intro">
+<span class="subhead">แพลตฟอร์ม</span>
+</div>
+<ul>
+<li>
+<a href="../../../platform/index.html" class="block-link">
+<div class="copy">
+<p class="h3">Zendesk Sunshine</p>
+<p>แพลตฟอร์ม Zendesk ที่ใช้งานง่าย มีความยืดหยุ่น และมีประสิทธิภาพในการสร้างประสบการณ์ที่ดีที่สุดสำหรับลูกค้า</p>
+</div>
+</a>
+</li>
+<li>
+
+<a href="../../../conversations/index.html" target="_blank" class="block-link">
+<div class="copy">
+<p class="h3">Sunshine Conversations</p>
+<p>สิ่งใหม่จาก Sunshine ที่ให้คุณสามารถสร้างการรับส่งข้อความแบบโต้ตอบ</p>
+</div>
+</a>
+</li>
+<li>
+<a href="../../index.html" class="block-link">
+<div class="copy">
+<p class="h3">Marketplace</p>
+<p>คุณสามารถเลือกดูแอพ ผลิตภัณฑ์ที่ใช้งานร่วมกัน รวมถึงพาร์ทเนอร์ทางธุรกิจ</p>
+</div>
+</a>
+</li>
+</ul>
+</div></div></div></div></li><li><a class="primary-link" href="../../../product/pricing/index.html">ราคา</a></li><li class="has-dropdown"><span class="open-dropdown js-open-dropdown primary-link " tabindex="0">โซลูชัน</span><div class="dropdown dropdown-primary dropdown-wide solutions-columns "><div class="dropdown-inner"><div class="columns"><div class="column column-6"><div class="intro"><span class="subhead">อุตสาหกรรม</span></div><div class="columns"><ul class="column-6"><li><a class="block-link slim" href="../../../financial-services/index.html"><span class="h3">บริการทางการเงิน</span></a></li><li class="industry-solutions-government"><a class="block-link slim" href="../../../government/index.html"><span class="h3">รัฐบาล</span></a></li><li><a class="block-link slim" href="../../../healthcare/index.html"><span class="h3">การดูแลสุขภาพ</span></a></li><li><a class="block-link slim" href="../../../manufacturing/index.html"><span class="h3">การผลิต</span></a></li></ul><ul class="column-6"><li><a class="block-link slim" href="../../../media/index.html"><span class="h3">สื่อ</span></a></li><li><a class="block-link slim" href="../../../retail/index.html"><span class="h3">การค้าปลีก</span></a></li><li><a class="block-link slim" href="../../../telecommunications/index.html"><span class="h3">โทรคมนาคม</span></a></li><li><a class="block-link slim" href="../../../software/index.html"><span class="h3">Software</span></a></li></ul></div></div><div class="column column-3"><div class="intro"><span class="subhead">ประเภทของบริษัท</span></div><ul><li><a class="block-link slim" href="../../../enterprise/index.html"><span class="h3" data-sl-variant="global-header-enterprise">Enterprise</span></a></li><li><a class="block-link slim" href="../../../smb/index.html"><span class="h3">SMB</span></a></li><li><a class="block-link slim" href="../../../startups/index.html"><span class="h3">ธุรกิจสตาร์ทอัพ</span></a></li></ul></div><div class="column column-3"><div class="intro"><span class="subhead">กรณีการใช้งาน</span></div><ul><li><a class="block-link slim" href="../../../remote-support-software/index.html"><span class="h3" data-sl-variant="global-nav-remote-support">การสนับสนุนระยะไกล</span></a></li><li><a class="block-link slim" href="../../../self-service/index.html"><span class="h3">การบริการตนเอง</span></a></li><li><a class="block-link slim" href="../../../omnichannel/index.html"><span class="h3">Omnichannel</span></a></li><li><a class="block-link slim" href="../../../internal-help-desk/index.html"><span class="h3">Help Desk ภายใน</span></a></li><li><a class="block-link slim" href="../../../sales/index.html"><span class="h3">CRM การขาย</span></a></li></ul></div></div></div></div></li><li><a class="primary-link" href="../../../demo/index.html">การสาธิต</a></li><li><a class="primary-link" href="../../../customer-experience/index.html">บริการ</a></li><li class="has-dropdown"><span class="open-dropdown js-open-dropdown primary-link " tabindex="0">แหล่งข้อมูล</span><div class="dropdown dropdown-primary dropdown-wide "><div class="dropdown-inner"><ul class="inline-list col-2 SL_swap" id="global-header-resources-dropdown"><li>
+<a class="block-link" href="../../../blog/index.html">
+<p class="h3">คลังข้อมูล</p>
+<p>ข่าว เคล็ดลับ และแนวทางปฏิบัติ</p>
+</a>
+</li>
+<li>
+<a class="block-link" href="../../../developers/index.html">
+<p class="h3">API และนักพัฒนา</p>
+<p>ข้อมูลสำหรับการสร้างสิ่งต่างๆ ด้วย Zendesk</p>
+</a>
+</li>
+<li class="js-localized-content" data-show-for="en-us">
+<a class="block-link" href="../../../company/events/index.html#webinars">
+<p class="h3">สัมมนาผ่านเว็บ</p>
+<p>เรียนรู้ได้จากทุกที่</p>
+</a>
+</li>
+<li class="js-localized-content" data-hide-for="en-us">
+<a class="block-link" href="../../../support/webinars/index.html">
+<p class="h3">สัมมนาผ่านเว็บ</p>
+<p>เรียนรู้ได้จากทุกที่</p>
+</a>
+</li>
+ <li>
+<a class="block-link" href="../../../partner/index.html">
+<p class="h3">พันธมิตร</p>
+<p>วิธีการเฟ้นหาหรือการเป็นพาร์ทเนอร์ Zendesk</p>
+</a>
+</li>
+<li>
+<a class="block-link" href="../../../company/events/index.html">
+<p class="h3">อีเวนท์</p>
+<p>มาพบกัน จากระยะห่างทางสังคมที่ปลอดภัย</p>
+</a>
+</li>
+<li>
+<a class="block-link" href="../../../why-zendesk/customers/index.html">
+<p class="h3">เรื่องราวของลูกค้า</p>
+<p>ดูสิ่งที่ Zendesk ช่วยทำให้สำเร็จ</p>
+</a>
+</li>
+</ul></div></div></li><li class="has-dropdown mobile-secondary-nav hide-small-up"><a class="open-dropdown js-open-dropdown primary-link " href="../../../company/index.html">บริษัท</a><div class="dropdown dropdown-primary "><div class="dropdown-inner"><ul><li><a class="block-link" href="../../../contact/index.html">ติดต่อเรา</a></li><li class="list-item"><a class="block-link" href="../../../about/index.html">เกี่ยวกับเรา</a></li><li class="list-item"><a class="block-link" href="../../../company/press/index.html">สื่อมวลชน</a></li><li class="list-item SL_norewrite"><a class="block-link" href="https://investor.zendesk.com/" target="_blank" rel="noopener noreferrer">นักลงทุน</a></li><li class="list-item SL_norewrite"><a class="block-link" href="../../../../company/events/index.html">อีเวนท์</a></li><li class="list-item"><a class="block-link" href="https://jobs.zendesk.com/" target="_blank" rel="noopener noreferrer">ตำแหน่งงาน</a></li><li class="list-item"><a class="block-link" href="../../../diversity-inclusion/index.html">ความหลากหลายและความครอบคลุมทุกกลุ่มคน</a></li><li class="list-item"><a class="block-link" href="../../../social-impact/index.html">Social impact</a></li><li class="list-item"><a class="block-link" href="../../../company/legal/index.html">กฎหมาย</a></li></ul></div></div></li><li class="has-dropdown mobile-secondary-nav hide-small-up"><span class="open-dropdown js-open-dropdown primary-link ">Language</span><div class="dropdown dropdown-primary "><div class="dropdown-inner"><ul><li class="list-item"><a class="sl_opaque block-link" data-lang="en-us" href="../../../../index.html">English (US)</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="en-gb" href="https://www.zendesk.co.uk/">English (UK)</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="es-es" href="https://www.zendesk.es/">Español</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="es-la" href="https://www.zendesk.com.mx/">Español (LATAM)</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="pt-br" href="https://www.zendesk.com.br/">Português</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="fr-fr" href="https://www.zendesk.fr/">Français</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="de-de" href="https://www.zendesk.de/">Deutsch</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="it-it" href="https://www.zendesk.it/">Italiano</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="nl" href="https://www.zendesk.nl/">Nederlands</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="ja-jp" href="https://www.zendesk.co.jp/">日本語</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="ru-ru" href="https://www.zendesk.com.ru/">Pусский</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="ko-kr" href="https://www.zendesk.kr/">한국어</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="zh-tw" href="https://www.zendesk.tw/">繁體中文 (台灣)</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="zh-tw" href="https://www.zendesk.hk/">繁體中文 (香港特區)</a></li><li class="list-item"><a class="sl_opaque block-link" data-lang="th-th" href="../../../index.html">ไทย</a></li></ul></div></div></li><div class="nav-separator hide-small-up"></div><li class="has-cta"><a class="cta primary small" href="../../../register/index.html">เริ่มต้นใช้งาน</a></li><li class="has-cta hide-small-up"><a class="primary-link" href="../../../login/index.html">ลงชื่อเข้าใช้</a></li></ul></nav></div></div></header><div class="marketplace-nav"><div class="container"><div class="nav-content"><div class="nav-container"><a href="../../../apps"><span id="link-app-home">Marketplace</span></a><a class="false" href="../../directory/index.html"><span id="link-app-directory">ไดเรกทอรีแอพ</span></a><a class="false" href="../../../marketplace/partners/index.html"><span id="link-app-partners">Partner Directory</span></a><a href="../../../marketplace/themes/index.html" class="false"><span id="link-app-themes">ธีม Guide</span></a></div></div></div></div><div><div class="marketplace-banner light-mode"><div class="grid padded container"><div class="row"><div class="col col-xsmall-12 content-wrapper"><div class="description-wrapper"><img class="icon" src="../../../../../221751.apps.zdusercontent.com/221751/assets/1605196567-7f49a5df0480e3e69c33912a4ee677b3/support/logo.png" /><div><div class="title-container"><h3>Recurly for Support</h3><div class="badge-wrapper"><div class="badge"><span class="product-icon product-icon-support-horizontal-dark-responsive"></span></div></div></div><p class="longform">ให้บริการสมาชิกของคุณได้รวดเร็วและดียิ่งขึ้น</p><div class="star-wrapper"><span class="icon-star-fill star-given"></span><span class="icon-star-fill star-given"></span><span class="icon-star-fill star-given"></span><span class="icon-star-fill star-given"></span><span class="icon-star-fill star-given"></span><span class="ml-5 rating-count">(<!-- -->12<!-- -->)</span></div></div></div><div class="cta-wrapper"><div><button data-test-id="app-installation-modal-trigger" class="button button-medium button-primary-default">ติดตั้ง</button></div></div></div></div></div></div><section class="mt-36"><div class="grid padded container"><div class="row"><div class="col col-small-8"><div class="mb-15"><div><img src="../../../../../221751.apps.zdusercontent.com/221751/assets/1605196567-7f49a5df0480e3e69c33912a4ee677b3/support/screenshot-0.png" alt="App Screenshot" class="screenshot-preview" /><img src="../../../../../221751.apps.zdusercontent.com/221751/assets/1605196567-7f49a5df0480e3e69c33912a4ee677b3/support/screenshot-1.png" alt="App Screenshot" class="screenshot-preview" /><img src="../../../../../221751.apps.zdusercontent.com/221751/assets/1605196567-7f49a5df0480e3e69c33912a4ee677b3/support/screenshot-2.png" alt="App Screenshot" class="screenshot-preview" /></div></div><div class="mt-15" data-tabs="true"><ul class="react-tabs__tab-list" role="tablist"><li class="react-tabs__tab react-tabs__tab--selected" role="tab" id="react-tabs-0" aria-selected="true" aria-disabled="false" aria-controls="react-tabs-1" tabindex="0"><h6>คำอธิบาย</h6></li><li class="react-tabs__tab" role="tab" id="react-tabs-2" aria-selected="false" aria-disabled="false" aria-controls="react-tabs-3"><h6>วิธีการติดตั้ง</h6></li></ul><div class="react-tabs__tab-panel react-tabs__tab-panel--selected" role="tabpanel" id="react-tabs-1" aria-labelledby="react-tabs-0"><div class="product-description"><p>With the emergence of integrated applications, businesses need to ensure their customer information is easily accessible. Whether through your Customer Relationship Management, Enterprise Resource Planning, Accounting, Billing, or Support tools, customer data must be available and actionable to ensure a seamless omnichannel experience.</p>
+
+<p>With Recurly for Zendesk, you don’t have to switch to separate tabs or systems to view or change the subscription details of your customers. Your omnichannel view provides you a complete picture of each subscriber--what level subscriber, for how long, and how valuable--plus, Recurly for Zendesk gives you the power to pause, cancel, or refund your customers’ subscription without leaving the Zendesk interface.</p>
+
+<p>If a subscriber is at risk of churning, the ability to pause their service is a great way to take a break from the subscription without canceling and losing their billing data, preferences, etc. It’s never ideal to have a subscriber cancel, but it’s a great learning opportunity to improve your retention strategy. If a subscriber requests to cancel their subscription, agents can do so immediately in the Zendesk interface, at the subscriber’s next bill date or at the end of the subscription term.</p>
+
+<p>With Recurly for Zendesk, you’ll save time, optimize your revenue, and provide great service to your customers.</p>
+
+<p>(<a href="https://recurly.com/">https://recurly.com/</a>) provides a versatile subscription billing management platform to handle the entire subscriber lifecycle for market-leading brands worldwide. Growing subscription businesses such as Sling TV, BarkBox, Asana, FabFitFun, Cinemark and Fubo.tv depend on Recurly to harness the power of the subscription model and drive recurring revenue growth. Since its launch in 2010, Recurly has deployed subscription billing for thousands of companies across 42 countries.</p>
+</div></div><div class="react-tabs__tab-panel" role="tabpanel" id="react-tabs-3" aria-labelledby="react-tabs-2"></div></div></div><div class="col col-small-4"><div class="details-panel"><h4>App details</h4><div class="detail-item"><div class="supertitle">Author</div><div>Recurly</div></div><div class="detail-item"><div class="supertitle">Version</div><div>1.0.1</div></div><div class="detail-item"><div class="supertitle">Price (USD)</div><div>ฟรี</div></div><div class="detail-item"><div class="supertitle">Support</div><a href="mailto:support@recurly.com">Contact Email</a><a href="https://recurly.com/" target="_blank" rel="noopener noreferrer">เว็บไซต์</a></div><p class="disclaimer">Apps install directly into your account.</p></div></div></div></div></section><section class="reviews-section-wrapper" name="reviews-section"><div class="grid padded container"><div class="row"><div class="col col-12"><div name="scroll-to-reviews"><div class="reviews-content-wrapper"><div class="review-header"><h4>รีวิว</h4><div class="reviews-sign-in-form"><form><label><input type="text" placeholder=".zendesk.com" /></label><button class="disabled button button-medium button-primary-default mt-15" type="submit" value="Submit">Sign in to review</button></form></div></div><hr /><p>There are currently no reviews. Be the first to share your experience.</p><div class="text-center"></div></div></div></div></div></div></section><section><div class="marketplace-banner dark-mode"><div class="grid padded container"><div class="row"><div class="col col-xsmall-12 content-wrapper"><div class="description-wrapper"><img class="icon transparent-bg" src="https://d1eipm3vz40hy0.cloudfront.net/images/p-apps-marketplace/dev-publish-white.svg" /><div><div class="title-container"><h3>Get your app in The Marketplace</h3><div class="badge-wrapper"></div></div><p class="longform">Find out what it takes to get your app on the digital shelves.</p></div></div><div class="cta-wrapper"><a href="https://developer.zendesk.com/apps/docs/publish/partner_program_intro" class="button button-medium button-secondary-light" target="_blank" rel="noopener noreferrer">อ่านรายละเอียด</a></div></div></div></div></div></section></div><footer class="global-footer"><nav class="container"><div class="grid five-column primary-nav"><div class="row"><div class="col col-1 SL_swap" id="smartling-nav-footer-product"><h6>ผลิตภัณฑ์ของเรา</h6>
+<ul class="no-list-style">
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../support-suite/index.html">Support Suite</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../sales-suite/index.html">Sales Suite</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../support/index.html">Support</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../guide/index.html">Guide</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../chat/index.html">Chat</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../talk/index.html">Talk</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../sell/index.html">Sell</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../explore/index.html">Explore</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../gather/index.html">Gather</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../platform/index.html">Sunshine</a></li>
+ <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../conversations/index.html" target="_blank">Sunshine Conversations</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../index.html">การทำงานร่วมกันและแอพ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../whats-new/index.html">อัพเดทผลิตภัณฑ์</a></li>
+</ul>
+</div><div class="col col-1 SL_swap" id="smartling-nav-footer-features"><h6>คุณสมบัติเด่น</h6>
+<ul class="no-list-style">
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../support/features/customer-service-management-software/index.html">ซอฟต์แวร์การบริการลูกค้า</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../help-desk-software/features/ticketing-system/index.html">ระบบใบสั่งงาน</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../guide/features/knowledge-base-software/index.html">ฐานความรู้</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../guide/features/community-software/index.html">ฟอรัมชุมชน</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../help-desk-software/index.html">ซอฟต์แวร์ Help Desk</a></li>
+
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../product/zendesk-security/index.html">การรักษาความปลอดภัย</a></li>
+</ul>
+</div><div class="col col-1 SL_swap" id="smartling-nav-footer-resources"><h6>แหล่งข้อมูล</h6>
+<ul class="no-list-style">
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="https://support.zendesk.com/hc/en-us/" target="_blank">การสนับสนุนด้านผลิตภัณฑ์</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../demo/index.html">ร้องขอการสาธิต</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../resources/index.html">คลังข้อมูล</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children SL_norewrite"><a href="../../../../blog/index.html">บล็อก Zendesk</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children i18n-hide"><a href="../../../support/webinars/index.html">การสัมมนาผ่านเว็บแบบสด</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../customer-experience/training/index.html#training">การฝึกอบรม</a></li>
+
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../partners/index.html">การบริการและพาร์ทเนอร์ต่างๆ</a></li>
+
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="https://relate.zendesk.com/" target="_blank">Relate โดย Zendesk</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../support/webinars/index.html">สัมมนาผ่านเว็บ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../why-zendesk/customers/index.html">เรื่องราวของลูกค้า</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../customer-experience/index.html">บริการ</a></li>
+</ul>
+</div><div class="col col-1 SL_swap" id="smartling-nav-footer-company"><h6>บริษัท</h6>
+<ul class="no-list-style">
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../about/index.html">เกี่ยวกับเรา</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../company/press/index.html">สื่อมวลชน</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="https://investor.zendesk.com/" target="_blank">นักลงทุน</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="https://jobs.zendesk.com/" target="_blank">ตำแหน่งงาน</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../diversity-inclusion/index.html">ความหลากหลายและความครอบคลุมทุกกลุ่มคน</a></li>
+
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../contact/index.html">ติดต่อเรา</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../sitemap/index.html">แผนผังเว็บไซต์</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="https://status.zendesk.com/" target="_blank">สถานะของระบบ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="https://help.zendesk.com/hc/en-us">ความช่วยเหลือผลิตภัณฑ์</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../company/legal/index.html">กฎหมาย</a></li>
+</ul>
+</div><div class="col col-1 SL_swap" id="smartling-nav-footer-favorites"><h6>สิ่งที่คุณจะชอบ</h6>
+<ul class="no-list-style">
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../enterprise/index.html">Zendesk สำหรับองค์กร</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../startups/index.html">Zendesk สำหรับสตาร์ตอัพ</a></li>
+
+
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../benchmark-your-support/index.html">เกณฑ์มาตรฐาน Zendesk</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../small-business/index.html">Zendesk สำหรับธุรกิจขนาดเล็ก</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../resources/gartner-magic-quadrant-crm/index.html">Gartner CRM Magic Quadrant</a></li>
+
+            <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="../../../customer-experience-trends/index.html">แนวโน้มของประสบการณ์สำหรับลูกค้า</a></li>
+</ul>
+
+</div></div></div><div class="grid secondary-nav"><div class="row"><div class="col col-small-6 col-medium-7 newsletter-section"></div><div class="col col-small-6 col-medium-5 social SL_swap" id="smartling-nav-footer-social"><span itemscope="" itemtype="https://schema.org/Organization">
+<link itemprop="url" href="../../../../index.html" />
+<a itemprop="sameAs" href="http://www.twitter.com/zendesk" class="notranslate icon-twitter"></a>
+<a itemprop="sameAs" href="http://www.facebook.com/zendesk" class="notranslate icon-facebook"></a>
+<a itemprop="sameAs" href="http://www.linkedin.com/company/zendesk" class="notranslate icon-linkedin"></a>
+<a itemprop="sameAs" href="http://www.youtube.com/zendesk" class="notranslate icon-youtube" rel="publisher"></a>
+<a itemprop="sameAs" href="http://instagram.com/zendesk/" class="notranslate icon-instagram"></a>
+<a itemprop="sameAs" href="http://www.snapchat.com/add/zendesk" class="notranslate icon-snapchat"></a>
+</span></div></div></div><div class="legal-nav"><a href="../../../company/customers-partners/terms-of-use/index.html">เงื่อนไขการใช้งาน</a><a href="../../../company/customers-partners/privacy-policy/index.html"><br>นโยบายความเป็นส่วนตัว</a><a href="../../../company/policies-procedures/cookie-policy/index.html">นโยบายการใช้คุกกี้</a><a href="../../../legal/index.html">©Zendesk 2020</a></div></nav></footer></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"app":{"id":221751,"name":"Recurly for Support","name_initial":"Recurly for Support","author_name":"Recurly","author_url":"https://recurly.com/","author_email":"support@recurly.com","url":"/apps/support/recurly-for-support/","icon_url":"https://221751.apps.zdusercontent.com/221751/assets/1605196567-7f49a5df0480e3e69c33912a4ee677b3/support/logo.png","installable":true,"installation_instructions":"\u003cp\u003eTo configure the Recurly for Zendesk Application, you will need a Base64 encoded API key and your subdomain. Click (\u003ca href=\"https://docs.recurly.com/docs/recurly-for-zendesk#section-installation\"\u003eHere\u003c/a\u003e) for installation instructions.\u003c/p\u003e\n","created_at":"2019-09-25T22:18:15Z","categories":[{"id":40,"name":"E-commerce \u0026 CRM"}],"collections":[],"short_description":"Serve your subscribers faster and better","long_description":"\u003cp\u003eWith the emergence of integrated applications, businesses need to ensure their customer information is easily accessible. Whether through your Customer Relationship Management, Enterprise Resource Planning, Accounting, Billing, or Support tools, customer data must be available and actionable to ensure a seamless omnichannel experience.\u003c/p\u003e\n\n\u003cp\u003eWith Recurly for Zendesk, you don’t have to switch to separate tabs or systems to view or change the subscription details of your customers. Your omnichannel view provides you a complete picture of each subscriber--what level subscriber, for how long, and how valuable--plus, Recurly for Zendesk gives you the power to pause, cancel, or refund your customers’ subscription without leaving the Zendesk interface.\u003c/p\u003e\n\n\u003cp\u003eIf a subscriber is at risk of churning, the ability to pause their service is a great way to take a break from the subscription without canceling and losing their billing data, preferences, etc. It’s never ideal to have a subscriber cancel, but it’s a great learning opportunity to improve your retention strategy. If a subscriber requests to cancel their subscription, agents can do so immediately in the Zendesk interface, at the subscriber’s next bill date or at the end of the subscription term.\u003c/p\u003e\n\n\u003cp\u003eWith Recurly for Zendesk, you’ll save time, optimize your revenue, and provide great service to your customers.\u003c/p\u003e\n\n\u003cp\u003e(\u003ca href=\"https://recurly.com/\"\u003ehttps://recurly.com/\u003c/a\u003e) provides a versatile subscription billing management platform to handle the entire subscriber lifecycle for market-leading brands worldwide. Growing subscription businesses such as Sling TV, BarkBox, Asana, FabFitFun, Cinemark and Fubo.tv depend on Recurly to harness the power of the subscription model and drive recurring revenue growth. Since its launch in 2010, Recurly has deployed subscription billing for thousands of companies across 42 countries.\u003c/p\u003e\n","featured":false,"promoted":false,"products":["support"],"rating":{"total_count":12,"average":5,"count":{"1":1,"2":0,"3":0,"4":1,"5":10}},"paid":false,"amount":"Free","rating_score":0.6461140782014047,"display_price":"Free","screenshots":["https://221751.apps.zdusercontent.com/221751/assets/1605196567-7f49a5df0480e3e69c33912a4ee677b3/support/screenshot-0.png","../../../../../221751.apps.zdusercontent.com/221751/assets/1605196567-7f49a5df0480e3e69c33912a4ee677b3/support/screenshot-1.png","https://221751.apps.zdusercontent.com/221751/assets/1605196567-7f49a5df0480e3e69c33912a4ee677b3/support/screenshot-2.png"],"plans":[{"id":1219,"app_id":221751,"plan_type":"one_off","stripe_plan_id":null,"created_at":"2019-09-25T22:18:19Z","updated_at":"2019-09-25T22:18:19Z","amount":0,"deleted_at":null,"active":true,"hidden":null,"cost_type":"CostFree","cost_id":1,"service_identifier":null,"trial_days":0,"name":"Default Plan","description":"\u003cp\u003eThis is the default plan all existing apps have. You can change the description and name of this plan\u003c/p\u003e\n","vat_reversible":null}],"marketing_only":false,"version":"1.0.1","searchable_rating":5,"feature_color":" #3da07b","searchable_plan_pricings":["Free"],"google_analytics_code":null,"objectID":"support-221751","_highlightResult":{"name":{"value":"\u003cem\u003eRecurly for Support\u003c/em\u003e","matchLevel":"full","fullyHighlighted":true,"matchedWords":["recurly","for","support"]},"author_name":{"value":"Recurly","matchLevel":"none","matchedWords":[]},"installation_instructions":{"value":"\u003cp\u003eTo configure the Recurly for Zendesk Application, you will need a Base64 encoded API key and your subdomain. Click (\u003ca href=\"https://docs.recurly.com/docs/recurly-for-zendesk#section-installation\"\u003eHere\u003c/a\u003e) for installation instructions.\u003c/p\u003e\n","matchLevel":"none","matchedWords":[]},"categories":[{"name":{"value":"E-commerce \u0026 CRM","matchLevel":"none","matchedWords":[]}}],"short_description":{"value":"Serve your subscribers faster and better","matchLevel":"none","matchedWords":[]},"long_description":{"value":"\u003cp\u003eWith the emergence of integrated applications, businesses need to ensure their customer information is easily accessible. Whether through your Customer Relationship Management, Enterprise Resource Planning, Accounting, Billing, or Support tools, customer data must be available and actionable to ensure a seamless omnichannel experience.\u003c/p\u003e\n\n\u003cp\u003eWith Recurly for Zendesk, you don’t have to switch to separate tabs or systems to view or change the subscription details of your customers. Your omnichannel view provides you a complete picture of each subscriber--what level subscriber, for how long, and how valuable--plus, Recurly for Zendesk gives you the power to pause, cancel, or refund your customers’ subscription without leaving the Zendesk interface.\u003c/p\u003e\n\n\u003cp\u003eIf a subscriber is at risk of churning, the ability to pause their service is a great way to take a break from the subscription without canceling and losing their billing data, preferences, etc. It’s never ideal to have a subscriber cancel, but it’s a great learning opportunity to improve your retention strategy. If a subscriber requests to cancel their subscription, agents can do so immediately in the Zendesk interface, at the subscriber’s next bill date or at the end of the subscription term.\u003c/p\u003e\n\n\u003cp\u003eWith Recurly for Zendesk, you’ll save time, optimize your revenue, and provide great service to your customers.\u003c/p\u003e\n\n\u003cp\u003e(\u003ca href=\"https://recurly.com/\"\u003ehttps://recurly.com/\u003c/a\u003e) provides a versatile subscription billing management platform to handle the entire subscriber lifecycle for market-leading brands worldwide. Growing subscription businesses such as Sling TV, BarkBox, Asana, FabFitFun, Cinemark and Fubo.tv depend on Recurly to harness the power of the subscription model and drive recurring revenue growth. Since its launch in 2010, Recurly has deployed subscription billing for thousands of companies across 42 countries.\u003c/p\u003e\n","matchLevel":"none","matchedWords":[]}}},"partner":{"name":"Recurly","email":"support@recurly.com","website":"https://recurly.com/"},"reviewsUrl":"https://support.zendesk.com/api/v2/apps/221751/reviews","trigger":"Install"}},"page":"/apps/[product]/[appName]","query":{"product":"support","appName":"recurly-for-support"},"buildId":"29LRHooJ0P6gaZhIsIfnx","isFallback":false,"dynamicIds":["/GRZ","/jkW","0Bsm","48fX","4JlD","7KCV","7eYB","AroE","C+bE","FYa8","Ff2n","KQm4","KckH","P5f7","PqPU","Qetd","QmWs","T0f4","YTqd","cuPQ","dZ6Y","elyg","g/15","gguc","i2R6","kd2E","kl55","mxvI","nOHt","pSHO","q722","qOIg","qVT1","qXWd","qhzo","rePB","s4NR","tCBg","vJKn","vpQ4","wx14","zoAU","CEVy","+wdc","16Al","17x9","8L3h","QCnb","WbBG","f/k9","i8i4","q1tI","viRO","yl30","TQg0","YFqc","cTJO","cpGi","/GAN","1VNF","2W6z","2rMq","2zs7","3FTO","9M/S","9rZX","FUBA","GzJA","HMs9","PKVZ","PTkm","QEso","S1to","Seim","TSYQ","VBQ/index.html","VCL8","VKEO","VbXa","Ye7m","ZDLa","fbhf","pvba","qFS3","rTOM","siIC","tvXG","uUxy","w8A1","wvdG","Fb3Z","V4to","aUsF","sXvs","sUn2","+ZlI","/1Be","/1FC","25cm","284h","2mql","3/ER","3UD+","3cmB","5WsY","7gMY","8M4i","9f76","BLKz","Ce4a","CfRg","DlmY","EUcb","G8aS","IzLi","Js68","Ju5/index.html","L3Qv","TFwu","TOwV","Tchk","U6JX","UGp+","UgHA","UudT","V5Mk","WJ6P","WOAq","XqMk","Y7yP","YHEm","YM6B","aFt7","bmMU","cDf5","cSlR","dLWn","eAQQ","efZk","jN84","mkut","nLtN","oSzE","oYcn","ovuK","pyRK","qT12","r5xO","tPH9","twO/index.html","uE2L","vJtL","xutz","yLpj","ylTp"],"gip":true}</script><script nomodule="" src="../../../../_next/static/runtime/polyfills-e29c11d3eaabc814ce6c.js" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script async="" data-next-page="/_app" src="../../../../_next/static/29LRHooJ0P6gaZhIsIfnx/pages/_app.js" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script async="" data-next-page="/apps/[product]/[appName]" src="../../../../_next/static/29LRHooJ0P6gaZhIsIfnx/pages/apps/%5bproduct%5d/%5bappName%5d.js" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script async="" src="../../../../_next/static/chunks/27.98ef05b8f446a1091ded.js" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script async="" src="../../../../_next/static/chunks/95b98745c7115a4e6236ad090c96001665718c45.a3f2e31adace64fc5ddf.js" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script async="" src="../../../../_next/static/chunks/c8f7fe3b0e41be846d5687592cf2018ff6e22687.16afa8517d8f34b84945.js" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script async="" src="../../../../_next/static/chunks/26.f594aec5f2f4109d9ecf.js" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script async="" src="../../../../_next/static/chunks/11.1137e0f3cd94da04795e.js" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script async="" src="../../../../_next/static/chunks/23.82d41c0ee5564d7ee025.js" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script src="../../../../_next/static/runtime/webpack-c9d603b1de342871447a.js" async="" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script src="../../../../_next/static/chunks/framework.8a7866bc6253aacf096f.js" async="" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script src="../../../../_next/static/chunks/commons.88bdd1543a6d5ae176b7.js" async="" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script src="../../../../_next/static/runtime/main-bc48641cfac57aa27408.js" async="" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script src="../../../../_next/static/chunks/233884ff.4c419f4b16a96bca7647.js" async="" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script src="../../../../_next/static/chunks/d11a3e54361b8036a3af72cd0f27851824996e1b.ee38db70f983ce8da346.js" async="" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script src="../../../../_next/static/chunks/33d139dd6189b5020ce37b767722d1b58c95ac2f.d1e8d2ad392f328d678d.js" async="" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script src="../../../../_next/static/chunks/264d038de7f3155b9a33c03085a891d102c73bc3.55aa30146cb8608b7970.js" async="" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script src="../../../../_next/static/chunks/styles.58471afdb7a4755dfa0b.js" async="" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script src="../../../../_next/static/29LRHooJ0P6gaZhIsIfnx/_buildManifest.js" async="" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script src="../../../../_next/static/29LRHooJ0P6gaZhIsIfnx/_ssgManifest.js" async="" type="0a6b946b85bdc8df7135541f-text/javascript"></script><script src="../../../../../ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="0a6b946b85bdc8df7135541f-|49" defer="" type="21a146fd22c192f81fec8c3d-text/javascript"></script><script src="../../../../../ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="21a146fd22c192f81fec8c3d-|49" defer=""></script></body>
+<!-- Mirrored from www.zendesk.com/th/apps/support/recurly-for-support/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Nov 2020 13:41:52 GMT -->
+</html>

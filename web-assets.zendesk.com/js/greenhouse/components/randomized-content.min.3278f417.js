@@ -1,0 +1,1 @@
+$(function(){function a(a){var b=a.children(),c=Math.floor(Math.random()*Math.floor(b.length));d&&(c=d),b.eq(c).addClass("active")}function b(){c.each(function(){a($(this))})}var c=$(".js-randomized-content"),d=webutils.getParameterByName("random")!==-1?webutils.getParameterByName("random"):null;c.length&&b()});

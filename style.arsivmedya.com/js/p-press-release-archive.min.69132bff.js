@@ -1,0 +1,1 @@
+$(function(){function a(a){var b=$(".release");return a?(b.hide(),b.filter('[data-year="'+a+'"]').show(),void(window.location.hash="#"+a)):void b.show()}function b(){$(".js-filter-year").on("click",function(){var b=$(this).attr("href").replace("#","");a(b)}),location.hash&&a(location.hash.replace("#",""))}b()});

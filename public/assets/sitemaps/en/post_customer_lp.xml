@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<url>
+		<loc>https://www.zendesk.com/customer/emea-supercut/</loc>
+		<lastmod>2020-10-28T10:25:26-07:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/airbnb/</loc>
+		<lastmod>2020-10-21T15:45:04-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/mukuru/</loc>
+		<lastmod>2020-10-21T12:47:31-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/abbyy/</loc>
+		<lastmod>2020-10-21T12:42:52-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/grapevine-colleyville-isd/</loc>
+		<lastmod>2020-10-20T12:36:38-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/kamal-osman-jamjoom-group-koj/</loc>
+		<lastmod>2020-10-20T09:46:48-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/givedirectly/</loc>
+		<lastmod>2020-10-15T17:42:27-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/progility/</loc>
+		<lastmod>2020-10-15T17:42:27-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/dana/</loc>
+		<lastmod>2020-10-15T17:42:24-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/slack/</loc>
+		<lastmod>2020-10-15T11:57:46-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/zuora/</loc>
+		<lastmod>2020-10-14T14:03:21-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/cotton-on-group/</loc>
+		<lastmod>2020-10-13T10:06:00-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/github/</loc>
+		<lastmod>2020-10-08T11:07:49-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/gympass/</loc>
+		<lastmod>2020-10-07T15:09:39-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/play-telecom/</loc>
+		<lastmod>2020-10-07T15:08:53-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/nubank/</loc>
+		<lastmod>2020-10-07T15:08:27-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/easy-taxi/</loc>
+		<lastmod>2020-10-07T15:08:01-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/movile/</loc>
+		<lastmod>2020-10-07T15:07:20-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/wavy/</loc>
+		<lastmod>2020-10-06T12:06:59-07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/line-mobile/</loc>
+		<lastmod>2020-09-28T15:17:06-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/passmefast/</loc>
+		<lastmod>2020-09-24T17:20:47-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/bitkub-qa/</loc>
+		<lastmod>2020-09-23T10:37:35-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/carousell/</loc>
+		<lastmod>2020-09-23T10:26:17-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/university-louisville/</loc>
+		<lastmod>2020-09-16T15:04:03-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/vimeo/</loc>
+		<lastmod>2020-09-16T15:03:26-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/state-tennessee/</loc>
+		<lastmod>2020-09-16T15:02:54-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/mediaocean/</loc>
+		<lastmod>2020-09-16T15:02:31-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/starling-bank/</loc>
+		<lastmod>2020-09-16T15:01:56-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/makespace/</loc>
+		<lastmod>2020-09-16T15:01:03-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/impossible-foods/</loc>
+		<lastmod>2020-09-16T15:00:39-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/fcc/</loc>
+		<lastmod>2020-09-16T15:00:20-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/reverb/</loc>
+		<lastmod>2020-09-16T14:59:51-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/riot-games/</loc>
+		<lastmod>2020-09-16T14:59:20-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/zendesk-gaming/</loc>
+		<lastmod>2020-09-15T12:17:32-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/vanmeijel/</loc>
+		<lastmod>2020-09-03T13:29:15-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/uber/</loc>
+		<lastmod>2020-09-03T13:28:50-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/trustpilot/</loc>
+		<lastmod>2020-09-03T13:28:24-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/thinkific/</loc>
+		<lastmod>2020-09-03T13:27:45-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/squarespace/</loc>
+		<lastmod>2020-09-03T13:27:16-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/qumu/</loc>
+		<lastmod>2020-09-03T13:24:52-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/plesk/</loc>
+		<lastmod>2020-09-03T13:24:27-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/discord/</loc>
+		<lastmod>2020-09-03T13:21:10-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/box/</loc>
+		<lastmod>2020-09-03T13:20:05-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/baublebar/</loc>
+		<lastmod>2020-09-03T13:17:40-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/zendesk-print-publishing/</loc>
+		<lastmod>2020-08-31T13:59:59-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/emea-zendesk-financial-services/</loc>
+		<lastmod>2020-08-31T13:59:25-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/serato/</loc>
+		<lastmod>2020-08-28T17:44:52-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/miinto/</loc>
+		<lastmod>2020-08-28T17:11:00-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/xero/</loc>
+		<lastmod>2020-08-28T16:38:41-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/opentable/</loc>
+		<lastmod>2020-08-28T14:57:19-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/circles-life/</loc>
+		<lastmod>2020-08-27T16:49:40-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/modsy/</loc>
+		<lastmod>2020-08-26T22:16:14-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/missouri-star-quilt-company/</loc>
+		<lastmod>2020-08-26T21:55:47-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/luminary-spotlight-q2-2020-covid-19-responses/</loc>
+		<lastmod>2020-08-25T12:59:11-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/luminary-spotlight-covid-19-retail-responses/</loc>
+		<lastmod>2020-08-25T12:58:49-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/khan-academy/</loc>
+		<lastmod>2020-08-24T11:46:25-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/nottingham-trent-university/</loc>
+		<lastmod>2020-08-18T10:58:55-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/coursera/</loc>
+		<lastmod>2020-08-18T10:13:16-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/subito/</loc>
+		<lastmod>2020-08-10T09:58:05-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/olala-homes/</loc>
+		<lastmod>2020-08-07T08:05:07-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/azimo/</loc>
+		<lastmod>2020-07-29T23:07:31-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/fullscript/</loc>
+		<lastmod>2020-07-29T20:53:06-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/lendingclub/</loc>
+		<lastmod>2020-07-29T19:54:44-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/museumhack/</loc>
+		<lastmod>2020-07-23T15:05:03-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/freshly/</loc>
+		<lastmod>2020-07-20T16:04:59-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/stajets/</loc>
+		<lastmod>2020-07-20T11:44:29-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/window-outfitters-two/</loc>
+		<lastmod>2020-07-20T11:44:29-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/dom-tom/</loc>
+		<lastmod>2020-07-20T11:44:29-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/blue-raven-solar/</loc>
+		<lastmod>2020-07-20T11:44:29-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/simpleray/</loc>
+		<lastmod>2020-07-20T11:44:29-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/1-stop-connections/</loc>
+		<lastmod>2020-07-20T11:44:23-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/junkyard-golf-club/</loc>
+		<lastmod>2020-07-20T11:44:21-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/freshly-sell/</loc>
+		<lastmod>2020-07-20T11:44:17-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/korman/</loc>
+		<lastmod>2020-07-20T11:44:16-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/thoughtbot/</loc>
+		<lastmod>2020-07-20T11:44:12-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/redfin/</loc>
+		<lastmod>2020-07-19T17:11:04-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/adroll/</loc>
+		<lastmod>2020-07-19T16:57:11-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/shipstation/</loc>
+		<lastmod>2020-07-19T16:46:41-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/amaysim/</loc>
+		<lastmod>2020-07-19T15:13:10-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/republic-wireless/</loc>
+		<lastmod>2020-07-19T14:47:13-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/accent-group/</loc>
+		<lastmod>2020-07-19T13:51:14-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/deckers-brands/</loc>
+		<lastmod>2020-07-10T14:27:34-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/virgin-pulse/</loc>
+		<lastmod>2020-07-10T14:26:31-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/udemy/</loc>
+		<lastmod>2020-07-10T13:49:09-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/shopify/</loc>
+		<lastmod>2020-07-10T12:31:52-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/payjoy/</loc>
+		<lastmod>2020-07-09T16:50:27-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/invision/</loc>
+		<lastmod>2020-07-09T16:38:30-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/one-medical/</loc>
+		<lastmod>2020-07-04T13:06:28-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/omada-health/</loc>
+		<lastmod>2020-07-04T12:56:54-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/olx/</loc>
+		<lastmod>2020-07-04T12:40:54-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/ohio-wesleyan-university/</loc>
+		<lastmod>2020-07-04T12:28:05-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/nhs/</loc>
+		<lastmod>2020-07-04T10:57:45-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/alfa-bank/</loc>
+		<lastmod>2020-06-29T18:24:06-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/azerbaijan-airlines/</loc>
+		<lastmod>2020-06-29T18:11:26-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/foursquare/</loc>
+		<lastmod>2020-06-29T17:50:48-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/gcash/</loc>
+		<lastmod>2020-06-29T17:18:58-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/infinity/</loc>
+		<lastmod>2020-06-29T17:15:35-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/groupon/</loc>
+		<lastmod>2020-06-29T15:55:06-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/life-fitness/</loc>
+		<lastmod>2020-06-29T15:17:24-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/lonely-planet/</loc>
+		<lastmod>2020-06-29T14:50:33-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/birchbox/</loc>
+		<lastmod>2020-06-29T12:11:57-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/covid-compilation/</loc>
+		<lastmod>2020-06-24T14:16:01-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/moo/</loc>
+		<lastmod>2020-06-18T16:06:13-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/weldbend/</loc>
+		<lastmod>2020-06-18T15:46:39-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/cci-systems/</loc>
+		<lastmod>2020-06-17T17:58:46-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/weatherford/</loc>
+		<lastmod>2020-06-17T17:58:29-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/ingersoll-rand/</loc>
+		<lastmod>2020-06-17T17:58:10-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/stanley-black-decker/</loc>
+		<lastmod>2020-06-17T17:57:28-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/primex/</loc>
+		<lastmod>2020-06-17T17:56:39-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/zendesk-luminary-spotlight-qa-brandon-tidd/</loc>
+		<lastmod>2020-06-16T09:09:59-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/ghd/</loc>
+		<lastmod>2020-06-11T09:09:00-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/ebp/</loc>
+		<lastmod>2020-06-09T10:39:44-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/keep-calm-support/</loc>
+		<lastmod>2020-06-08T17:04:38-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/le-tote/</loc>
+		<lastmod>2020-06-08T10:15:32-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/vodafone/</loc>
+		<lastmod>2020-06-08T10:07:53-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/mailchimp/</loc>
+		<lastmod>2020-06-05T10:05:13-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/tesco/</loc>
+		<lastmod>2020-06-04T19:31:33-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/instacart/</loc>
+		<lastmod>2020-06-04T18:00:27-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/discords-covid-19-response/</loc>
+		<lastmod>2020-06-03T14:42:13-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/teachables-covid-19-response/</loc>
+		<lastmod>2020-06-03T14:42:06-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/o2-arena/</loc>
+		<lastmod>2020-06-03T11:35:33-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/automattic/</loc>
+		<lastmod>2020-06-03T11:31:05-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/thrive-market/</loc>
+		<lastmod>2020-05-29T11:44:01-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/homebridge/</loc>
+		<lastmod>2020-05-29T10:26:08-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/99designs/</loc>
+		<lastmod>2020-05-29T10:17:36-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/wepay/</loc>
+		<lastmod>2020-05-28T19:00:27-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/wharton/</loc>
+		<lastmod>2020-05-28T18:58:54-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/walker-and-company/</loc>
+		<lastmod>2020-05-28T18:57:50-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/university-of-lincoln/</loc>
+		<lastmod>2020-05-28T18:57:02-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/wintec-2/</loc>
+		<lastmod>2020-05-28T18:50:52-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/forever-new/</loc>
+		<lastmod>2020-05-28T18:50:20-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/xerox/</loc>
+		<lastmod>2020-05-28T18:49:35-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/the-royal-childrens-hospital/</loc>
+		<lastmod>2020-05-28T18:48:54-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/prezi/</loc>
+		<lastmod>2020-05-28T18:47:48-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/swiftkey/</loc>
+		<lastmod>2020-05-28T18:47:18-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/charity-water/</loc>
+		<lastmod>2020-05-28T18:45:16-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/city-hampton/</loc>
+		<lastmod>2020-05-28T18:44:47-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/harris-farm-customer-story/</loc>
+		<lastmod>2020-05-28T18:41:52-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/tango-upwork/</loc>
+		<lastmod>2020-05-28T18:41:32-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/medidata/</loc>
+		<lastmod>2020-05-28T18:40:19-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/acquia/</loc>
+		<lastmod>2020-05-28T18:39:55-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/usc-annenberg/</loc>
+		<lastmod>2020-05-28T18:39:04-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/deliveroo/</loc>
+		<lastmod>2020-05-28T18:37:38-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/fairfax-media/</loc>
+		<lastmod>2020-05-28T18:36:54-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/upwork/</loc>
+		<lastmod>2020-05-28T18:36:21-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/papercut/</loc>
+		<lastmod>2020-05-28T18:35:58-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/rovio/</loc>
+		<lastmod>2020-05-28T18:34:42-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/browserstack/</loc>
+		<lastmod>2020-05-28T18:32:09-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/evernote/</loc>
+		<lastmod>2020-05-28T18:31:20-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/tony-bianco/</loc>
+		<lastmod>2020-05-28T18:28:16-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/oneplus/</loc>
+		<lastmod>2020-05-28T18:26:07-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/carsales/</loc>
+		<lastmod>2020-05-28T18:24:31-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/lincoln-investment/</loc>
+		<lastmod>2020-05-28T18:24:12-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/gofundme/</loc>
+		<lastmod>2020-05-28T18:23:49-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/salvation-army/</loc>
+		<lastmod>2020-05-28T18:22:48-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/bill-com/</loc>
+		<lastmod>2020-05-28T18:22:11-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/zip/</loc>
+		<lastmod>2020-05-28T18:21:47-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/shaadi/</loc>
+		<lastmod>2020-05-28T18:20:54-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/wrike/</loc>
+		<lastmod>2020-05-28T18:19:52-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/unleashed/</loc>
+		<lastmod>2020-05-28T18:18:27-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/sendinblue/</loc>
+		<lastmod>2020-05-28T18:18:05-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/veeva/</loc>
+		<lastmod>2020-05-28T18:15:47-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/cdnetworks/</loc>
+		<lastmod>2020-05-28T18:14:11-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/mysugr/</loc>
+		<lastmod>2020-05-28T18:13:25-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/daniel-wellington/</loc>
+		<lastmod>2020-05-28T18:10:24-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/printful/</loc>
+		<lastmod>2020-05-28T18:00:32-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/dreams/</loc>
+		<lastmod>2020-05-28T17:55:53-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/outreach/</loc>
+		<lastmod>2020-05-28T17:55:43-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/nexon/</loc>
+		<lastmod>2020-05-28T17:51:21-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/minor-hotels/</loc>
+		<lastmod>2020-05-28T17:49:47-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/micro-center/</loc>
+		<lastmod>2020-05-28T17:48:57-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/aurora-fashions/</loc>
+		<lastmod>2020-05-28T17:45:24-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/sure/</loc>
+		<lastmod>2020-05-28T17:44:55-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/edmunds/</loc>
+		<lastmod>2020-05-28T17:44:31-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/zoosk/</loc>
+		<lastmod>2020-05-28T17:43:17-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/scribd/</loc>
+		<lastmod>2020-05-28T17:40:41-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/justgiving/</loc>
+		<lastmod>2020-05-28T17:38:51-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/john-lewis/</loc>
+		<lastmod>2020-05-28T17:34:20-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/skyscanner/</loc>
+		<lastmod>2020-05-28T17:32:20-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/lightspeed/</loc>
+		<lastmod>2020-05-28T17:31:31-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/nyx-gaming/</loc>
+		<lastmod>2020-05-28T17:30:13-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/ola-1/</loc>
+		<lastmod>2020-05-28T17:29:19-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/limebike/</loc>
+		<lastmod>2020-05-28T17:27:57-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/faberlic/</loc>
+		<lastmod>2020-05-28T17:26:16-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/stoiximan/</loc>
+		<lastmod>2020-05-28T17:23:57-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/leboncoin/</loc>
+		<lastmod>2020-05-28T17:22:34-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/kreditech/</loc>
+		<lastmod>2020-05-28T17:21:51-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/vend/</loc>
+		<lastmod>2020-05-28T17:18:09-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/keen/</loc>
+		<lastmod>2020-05-28T17:15:01-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/jibjab-metaverse/</loc>
+		<lastmod>2020-05-28T17:14:29-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/jetbrains/</loc>
+		<lastmod>2020-05-28T17:11:21-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/icard/</loc>
+		<lastmod>2020-05-28T17:10:29-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/heartflow/</loc>
+		<lastmod>2020-05-28T17:09:42-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/foodpanda/</loc>
+		<lastmod>2020-05-28T17:04:51-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/fiverr/</loc>
+		<lastmod>2020-05-28T17:03:29-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/first-utility/</loc>
+		<lastmod>2020-05-28T16:55:30-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/dollar-shave-club/</loc>
+		<lastmod>2020-05-28T16:43:29-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/cleverbridge/</loc>
+		<lastmod>2020-05-28T16:42:01-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/tourico-holidays/</loc>
+		<lastmod>2020-05-28T16:40:19-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/uncommongoods/</loc>
+		<lastmod>2020-05-28T16:39:46-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/made/</loc>
+		<lastmod>2020-05-28T16:39:21-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/lj-hooker/</loc>
+		<lastmod>2020-05-28T16:37:50-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/rea-group/</loc>
+		<lastmod>2020-05-28T16:37:24-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/twilio/</loc>
+		<lastmod>2020-05-28T16:35:02-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/animoto/</loc>
+		<lastmod>2020-05-28T16:34:07-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/harrys/</loc>
+		<lastmod>2020-05-28T16:30:41-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/pas-group/</loc>
+		<lastmod>2020-05-28T16:30:21-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/monese/</loc>
+		<lastmod>2020-05-28T16:29:15-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/viaplay/</loc>
+		<lastmod>2020-05-28T16:26:11-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/mr-green/</loc>
+		<lastmod>2020-05-28T16:23:51-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/dailymotion/</loc>
+		<lastmod>2020-05-28T16:22:26-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/naturebox/</loc>
+		<lastmod>2020-05-28T16:17:22-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/bing-lee/</loc>
+		<lastmod>2020-05-28T16:15:47-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/big-fish-games/</loc>
+		<lastmod>2020-05-28T16:15:01-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/allsaints/</loc>
+		<lastmod>2020-05-28T16:12:46-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/spartan-race/</loc>
+		<lastmod>2020-05-26T17:23:24-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/aclu/</loc>
+		<lastmod>2020-05-26T13:16:16-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/feed-2/</loc>
+		<lastmod>2020-03-17T10:09:50-07:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.3</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/wargaming/</loc>
+		<lastmod>2020-03-05T15:55:31-08:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.3</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/sendcloud/</loc>
+		<lastmod>2020-03-05T15:50:32-08:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.3</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/bolt/</loc>
+		<lastmod>2020-01-22T14:21:25-08:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.3</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/yext/</loc>
+		<lastmod>2019-12-03T13:50:23-08:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.3</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/bukalapak/</loc>
+		<lastmod>2019-10-10T11:00:46-07:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.2</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/nsw-goverment/</loc>
+		<lastmod>2019-08-09T17:13:04-07:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.2</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/trade/</loc>
+		<lastmod>2019-07-15T23:10:50-07:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.2</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/showpo/</loc>
+		<lastmod>2019-05-29T08:42:52-07:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.2</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/handy/</loc>
+		<lastmod>2019-04-05T13:44:33-07:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.2</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/connective/</loc>
+		<lastmod>2018-11-06T11:14:18-08:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.1</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/adslot/</loc>
+		<lastmod>2017-11-03T08:19:13-07:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.1</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/slicepay/</loc>
+		<lastmod>2017-11-01T13:55:00-07:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.1</priority>
+	</url>
+
+	<url>
+		<loc>https://www.zendesk.com/customer/uti/</loc>
+		<lastmod>2017-10-30T13:22:54-07:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.1</priority>
+	</url>
+
+</urlset>
+
+
+

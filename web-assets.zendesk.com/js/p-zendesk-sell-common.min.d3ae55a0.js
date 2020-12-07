@@ -1,0 +1,1 @@
+$(function(){function a(){var a=$(".hero");webutils.isFirefox()?a.addClass("briefcase-slide-14"):LazyloadSlideshow.loadAndPlay("js-briefcase-slide",100,1,1e3),$('#smartling-secondary-nav .secondary-link[href*="login"]').attr("href","https://app.futuresimple.com/").attr("target","_blank")}a()});

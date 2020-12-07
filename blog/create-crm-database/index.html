@@ -1,0 +1,756 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js no-pass-type ie6 oldie" id="unsupported" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js no-pass-type ie7 oldie" id="unsupported" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js no-pass-type ie8 oldie" id="unsupported" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js no-pass-type ie9" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+<!-- Mirrored from www.zendesk.com/blog/create-crm-database/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Nov 2020 13:43:41 GMT -->
+<head>
+<meta charset="UTF-8" />
+<title>How to create a CRM database | Zendesk</title>
+
+<script type="f6942dd39e1d340fbc096d88-text/javascript">
+    dataLayer = [{
+    "blog_category": "service",
+    "blog_subcategory": "customer-service-software",
+    "blog_post_type": "spoke",
+    "blog_hub": "customer-relationship-management-guide",
+    "blog_spoke": "create-crm-database",
+    "blog_tags": null,
+    "site_section": "content - text"
+}];
+  </script>
+<script async src="http://reveal.clearbit.com/v1/companies/reveal?authorization=pk_9373fb5a1892030e7c83b2c5989f44d1&amp;variable=reveal" type="f6942dd39e1d340fbc096d88-text/javascript"></script>
+<script src="../../scripts/optimizely.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script><script async src="../../../web-assets.zendesk.com/js/analytics.min.b5965a74.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="google-site-verification" content="2q8u-0_6HxJZdS7l7LYlf-WDEYwIPvdJ_XVujkTFNCY" />
+<meta name="naver-site-verification" content="0280b3893b4fa7c8bbe9bc24ef61756c9dccec97" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="dns-prefetch" href="http://d16cvnquvjw7pr.cloudfront.net/">
+<link rel="dns-prefetch" href="http://web-assets.zendesk.com/">
+<link rel="dns-prefetch" href="http://ajax.googleapis.com/">
+<link rel="dns-prefetch" href="http://cdn3.optimizely.com/">
+<link rel="dns-prefetch" href="http://a112699136.cdn.optimizely.com/">
+<link rel="dns-prefetch" href="http://logx.optimizely.com/">
+<link rel="mask-icon" href="https://d1eipm3vz40hy0.cloudfront.net/images/logos/zendesk-favicon.svg" color="#03363d">
+<link rel="shortcut icon" href="https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/favicon.ico">
+<link rel="shortcut icon" href="https://d1eipm3vz40hy0.cloudfront.net/images/logos/zendesk-favicon.svg">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../d26a57ydsghvgx.cloudfront.net/www/public/assets/images/logos/zendesk152.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../d26a57ydsghvgx.cloudfront.net/www/public/assets/images/logos/zendesk144.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../../../d26a57ydsghvgx.cloudfront.net/www/public/assets/images/logos/zendesk120.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../../d26a57ydsghvgx.cloudfront.net/www/public/assets/images/logos/zendesk114.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../../d26a57ydsghvgx.cloudfront.net/www/public/assets/images/logos/zendesk72.png">
+
+<link rel="apple-touch-icon-precomposed" href="../../../d26a57ydsghvgx.cloudfront.net/www/public/assets/images/logos/zendesk57.png">
+<meta property="og:image" content="https://d1eipm3vz40hy0.cloudfront.net/images/blog-redesign/Artboard 138680x360px_Bubbles@2x.png" />
+<meta category="og:category" content="" />
+
+<meta name="description" content="Understanding how to create a CRM database shouldn’t be a mystery. In this post, we break down the benefits of a CRM database and what kind of data it should store." />
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How to create a CRM database - Zendesk" />
+<meta property="og:description" content="Understanding how to create a CRM database shouldn’t be a mystery. In this post, we break down the benefits of a CRM database and what kind of data it should store." />
+<meta property="og:url" content="https://www.zendesk.com/blog/create-crm-database/" />
+<meta property="og:site_name" content="Zendesk" />
+
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel='https://api.w.org/' href='../../wp-json/index.html' />
+<link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed285e?url=https%3A%2F%2Fwww.zendesk.com%2Fblog%2Fcreate-crm-database%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embed9420?url=https%3A%2F%2Fwww.zendesk.com%2Fblog%2Fcreate-crm-database%2F&amp;format=xml" />
+<meta name="twitter:card" value="summary" />
+<meta name="twitter:url" value="https://www.zendesk.com/blog/create-crm-database/" />
+<meta name="twitter:title" value="How to create a CRM database | Zendesk" />
+<meta name="twitter:description" value="Understanding how to create a CRM database shouldn’t be a mystery. In this post, we break down the benefits of a CRM database and what kind of data it should store." />
+<meta name="twitter:image" value="https://d1eipm3vz40hy0.cloudfront.net/images/blog-redesign/Artboard 138680x360px_Bubbles@2x.png" />
+<meta name="twitter:site" value="@Zendesk" />
+
+<link rel="alternate" hreflang="ru" href="https://www.zendesk.com.ru/blog/create-crm-database/" />
+<link rel="alternate" hreflang="nl" href="https://www.zendesk.nl/blog/create-crm-database/" />
+<link rel="alternate" hreflang="it" href="https://www.zendesk.it/blog/create-crm-database/" />
+<link rel="alternate" hreflang="es-ES" href="https://www.zendesk.es/blog/create-crm-database/" />
+<link rel="alternate" hreflang="es" href="https://www.zendesk.com.mx/blog/create-crm-database/" />
+<link rel="alternate" hreflang="pt" href="https://www.zendesk.com.br/blog/create-crm-database/" />
+<link rel="alternate" hreflang="ja" href="https://www.zendesk.co.jp/blog/create-crm-database/" />
+<link rel="alternate" hreflang="fr" href="https://www.zendesk.fr/blog/create-crm-database/" />
+<link rel="alternate" hreflang="de" href="https://www.zendesk.de/blog/create-crm-database/" />
+<link rel="alternate" hreflang="ko" href="https://www.zendesk.kr/blog/create-crm-database/" />
+<link rel="alternate" hreflang="zh-TW" href="https://www.zendesk.tw/blog/create-crm-database/" />
+<link rel="alternate" hreflang="zh-HK" href="https://www.zendesk.hk/blog/create-crm-database/" />
+<link rel="alternate" hreflang="th-TH" href="../../th/blog/create-crm-database/index.html" />
+<link rel="alternate" hreflang="en-GB" href="https://www.zendesk.co.uk/blog/create-crm-database/" />
+<link rel="alternate" hreflang="en" href="index.html" />
+
+<link href="../../../web-assets.zendesk.com/css/p-single.min.b025e4e5.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<body data-useragent class="lang-en responsive " lang="en-US">
+<script type="f6942dd39e1d340fbc096d88-text/javascript">
+  function loadJS(u) {
+    var r = document.getElementsByTagName("script")[0],
+      s = document.createElement("script");
+    s.src = u;
+    r.parentNode.insertBefore(s, r);
+  }
+
+  if (!window.HTMLPictureElement || document.msElementsFromPoint) {
+    loadJS('../../../web-assets.zendesk.com/js/vendor/lazysizes/ls.respimg.min.js');
+  }
+</script>
+
+<div class="homepage-link">
+<a href="../../index.html"><img src="https://web-assets.zendesk.com/images/navigation/header/zendesk-logo.svg" alt="Zendesk"></a>
+</div>
+
+<div class="global-header js-global-header global-header-blog">
+<div class="sticky-marker js-sticky-marker"></div>
+<div class="sticky-container js-sticky-container">
+
+<div class="progress-bar js-progress-bar">
+<div class="bar js-bar"></div>
+</div>
+
+<div class="global-header-blog-nav">
+<div class="container nav-container">
+<nav class="primary-nav">
+<ul class="menu logo-items js-toggler-parent">
+<li class="logo">
+<a href="../index.html" class="blog-logo">The Library</a>
+</li>
+<li class="push-right show-mobile-only">
+<button class="primary-link search-button open-search js-open-search js-toggler" data-toggle-exclusive="true" data-toggle="blog-search-dropdown" data-toggle-class="open" aria-label="Search"></button>
+</li>
+<li class="toggle-mobile-menu js-toggle-mobile-menu show-mobile-only js-hide-body-scroll js-toggler" data-toggle-exclusive="true" data-toggle="blog-nav" data-toggle-class="open">
+<a href="#">Toggle Mobile Menu</a>
+</li>
+</ul>
+<ul class="menu nav-items js-toggler-target" data-toggle="blog-nav">
+<li class="has-dropdown">
+<a href="../tags/service/index.html" class="primary-link open-dropdown js-open-dropdown anchor" target=""><span>Service</span></a> <div class="dropdown dropdown-primary dropdown-wide">
+<div class="dropdown-inner">
+<div class="columns">
+<div class="column categories">
+<ul>
+<li><a href="../tags/customer-engagement/index.html" class="block-link slim h3 anchor" target=""><span>Customer engagement</span></a></li>
+<li><a href="../tags/customer-service-management/index.html" class="block-link slim h3 anchor" target=""><span>Customer service management</span></a></li>
+<li><a href="../tags/customer-service-metrics-data/index.html" class="block-link slim h3 anchor" target=""><span>Customer service metrics and data</span></a></li>
+<li><a href="../tags/customer-service-software/index.html" class="block-link slim h3 anchor" target=""><span>Customer service software</span></a></li>
+<li><a href="../tags/customer-service-success-stories/index.html" class="block-link slim h3 anchor" target=""><span>Customer service success stories</span></a></li>
+ <li><a href="../tags/customer-service-trends/index.html" class="block-link slim h3 anchor" target=""><span>Customer service trends</span></a></li>
+<li><a href="../tags/how-to-guides/index.html" class="block-link slim h3 anchor" target=""><span>How To Guides</span></a></li>
+</ul>
+</div>
+<div class="column featured-article">
+<div class="promo-zone js-promo-zone" data-promo-dl-location="navigation" data-promo-type="nav-featured-post" data-promo-tags="service">
+<div class="intro">
+<span class="subhead">Featured article</span>
+</div>
+<a href="#" class="js-promo-link block-link anchor">
+<div>
+<p class="js-promo-title h3"></p>
+<p class="js-promo-body"></p>
+</div>
+<div class="image-container">
+<div class="image-mask">
+<img class="js-promo-image lazyload no-src" data-src="" alt="">
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="has-dropdown">
+<a href="../tags/sales/index.html" class="primary-link open-dropdown js-open-dropdown anchor" target=""><span>Sales</span></a> <div class="dropdown dropdown-primary dropdown-wide">
+<div class="dropdown-inner">
+<div class="columns">
+<div class="column categories">
+<ul>
+<li><a href="../tags/future-of-sales/index.html" class="block-link slim h3 anchor" target=""><span>Future of sales</span></a></li>
+<li><a href="../tags/sales-case-studies/index.html" class="block-link slim h3 anchor" target=""><span>Sales case studies</span></a></li>
+<li><a href="../tags/sales-culture-recruitment/index.html" class="block-link slim h3 anchor" target=""><span>Sales culture and recruitment</span></a></li>
+<li><a href="../tags/sales-management/index.html" class="block-link slim h3 anchor" target=""><span>Sales management</span></a></li>
+<li><a href="../tags/sales-metrics-data/index.html" class="block-link slim h3 anchor" target=""><span>Sales metrics and data</span></a></li>
+<li><a href="../tags/sales-software/index.html" class="block-link slim h3 anchor" target=""><span>Sales software</span></a></li>
+<li><a href="../tags/sales-tips-techniques/index.html" class="block-link slim h3 anchor" target=""><span>Sales tips and techniques</span></a></li>
+</ul>
+</div>
+<div class="column featured-article">
+<div class="promo-zone js-promo-zone" data-promo-dl-location="navigation" data-promo-type="nav-featured-post" data-promo-tags="sales">
+<div class="intro">
+<span class="subhead">Featured article</span>
+</div>
+<a href="#" class="js-promo-link block-link anchor">
+<div>
+<p class="js-promo-title h3"></p>
+<p class="js-promo-body"></p>
+</div>
+<div class="image-container">
+<div class="image-mask">
+<img class="js-promo-image lazyload no-src" data-src="" alt="">
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="has-dropdown">
+<a href="../tags/culture/index.html" class="primary-link open-dropdown js-open-dropdown anchor" target=""><span>Culture</span></a> <div class="dropdown dropdown-primary dropdown-wide">
+<div class="dropdown-inner">
+<div class="columns">
+<div class="column categories">
+<ul>
+<li><a href="../tags/building-empathy/index.html" class="block-link slim h3 anchor" target=""><span>Building empathy</span></a></li>
+<li><a href="../tags/customer-relationships/index.html" class="block-link slim h3 anchor" target=""><span>Customer relationships</span></a></li>
+<li><a href="../tags/leadership/index.html" class="block-link slim h3 anchor" target=""><span>Leadership</span></a></li>
+<li><a href="../tags/tech-trends/index.html" class="block-link slim h3 anchor" target=""><span>Tech trends</span></a></li>
+<li><a href="../tags/workplace/index.html" class="block-link slim h3 anchor" target=""><span>Workplace</span></a></li>
+</ul>
+</div>
+<div class="column featured-article">
+<div class="promo-zone js-promo-zone" data-promo-dl-location="navigation" data-promo-type="nav-featured-post" data-promo-tags="culture">
+<div class="intro">
+<span class="subhead">Featured article</span>
+</div>
+<a href="#" class="js-promo-link block-link anchor">
+<div>
+<p class="js-promo-title h3"></p>
+<p class="js-promo-body"></p>
+</div>
+<div class="image-container">
+<div class="image-mask">
+<img class="js-promo-image lazyload no-src" data-src="" alt="">
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="nav-separator hide-small-up"></li>
+<li class="push-right hide-mobile-only">
+<button class="primary-link search-button open-search js-open-search js-toggler" data-toggle="blog-search-dropdown" data-toggle-class="open" aria-label="Search"></button>
+</li>
+<li class="has-cta">
+<a class="cta primary small" href="../../demo/index.html">View demo</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+
+<div tabindex="0" class="search-dropdown js-search-dropdown js-toggler-target" data-toggle="blog-search-dropdown">
+<div class="container nav-container">
+<form class="js-search-dropdown-form" action="https://www.zendesk.com/blog/search/">
+<input autocomplete="off" type="text" placeholder="Search" class="js-blog-search-input" name="global-header-blog-search" id="global-header-blog-search" />
+<button class="search-button" type="submit" aria-label="Submit"></button>
+</form>
+</div>
+</div>
+</div>
+</div>
+<article class="p-blog p-single p-single-with-hub-navigation p-single-spoke" aria-hidden="false">
+
+<div class="js-sticky-nav-offset"></div>
+<section class="hero">
+<div class="container">
+<ol class="breadcrumbs">
+<li><a href="../tags/service/index.html" class="anchor" target=""><span>Service</span></a></li>
+<li><a href="../tags/customer-service-software/index.html" class="anchor" target=""><span>Customer service software</span></a></li>
+<li>Creating a CRM database</li>
+</ol>
+<div class="grid">
+<div class="row">
+
+
+<div class="col hub-navigation sticky-nav js-sticky-nav" data-sticky-breakpoint="small-down">
+<div class="hub-navigation-inner">
+<div class="hub">
+<a href="../customer-relationship-management-guide/index.html" class="anchor" target=""><span>Customer relationship management</span></a> <span class="toggler js-toggler" data-toggle="hub-navigation" aria-label="Toggle hub navigation"></span>
+</div>
+<ul class="js-toggler-target" data-toggle="hub-navigation">
+<li><a href="../choose-best-crm-business-needs/index.html" class="spoke anchor" target=""><span>How to choose a CRM</span></a></li>
+<li><a href="../use-crm-marketing-improve-campaign-roi/index.html" class="spoke anchor" target=""><span>CRM marketing</span></a></li>
+<li><a href="../what-is-a-crm-database/index.html" class="spoke anchor" target=""><span>What is a CRM database?</span></a></li>
+<li><a href="../3-types-crm-everything-need-know/index.html" class="spoke anchor" target=""><span>Types of CRM</span></a></li>
+<li> <span class="spoke">Creating a CRM database</span>
+</li>
+<li><a href="../7-questions-every-small-business-ask-looking-crm/index.html" class="spoke anchor" target=""><span>CRM for small businesses</span></a></li>
+<li><a href="../crm-process/index.html" class="spoke anchor" target=""><span>The CRM process</span></a></li>
+<li><a href="../top-crm-benefits-sales-support-teams/index.html" class="spoke anchor" target=""><span>CRM benefits</span></a></li>
+</ul>
+</div>
+</div>
+<div class="col hero-content ">
+<div class="hero-text">
+
+<a href="../tags/article/index.html" class="post-type post-type-large post-type-article anchor" target=""><span>Article</span></a> 
+<h1 class="h2">How to create a CRM database</h1>
+
+<div class="hero-post-details">
+
+<p class="author">By Bryce Baer</p>
+
+<p class="date">
+Published March 31, 2020 <br>
+Last updated July 14, 2020 </p>
+</div>
+
+
+<div class="social-block js-social-block">
+<ul class="social">
+<li class="custom-fb-like">
+<a title="Share on Facebook" data-network="facebook" data-action="share" href="https://www.facebook.com/sharer/sharer.php?u=https://zdsk.co/3dhuE1F" target="_blank" class="icon-facebook-alt">
+</a>
+</li>
+<li class="custom-li-share">
+<a title="Share on LinkedIn" data-network="linkedin" data-action="share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://zdsk.co/2zQ6iyi&amp;title=How+to+create+a+CRM+database" target="_blank" class="icon-linkedin-alt">
+</a>
+</li>
+<li class="custom-tweet-button">
+<a title="Share on Twitter" data-network="twitter" data-action="share" href="https://twitter.com/intent/tweet?url=https://zdsk.co/3hGNWAJ&amp;text=How+to+create+a+CRM+database" target="_blank" class="icon-twitter">
+</a>
+</li>
+<li class="follow-rss-button">
+<a title="RSS Feed" data-network="" data-action="share" href="../../public/assets/sitemaps/en/feed.xml" target="_blank" class="icon-rss">
+</a>
+</li>
+</ul>
+</div>
+<script src="../../../web-assets.zendesk.com/js/p-social-block.min.929943cf.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script> </div>
+<div class="hero-media">
+
+<div class="relationframe featured-image landscape  SL_swap" id="localized_featured_image-471121">
+<img src="../../../d1eipm3vz40hy0.cloudfront.net/images/blog-redesign/Artboard%20138680x360px_Bubbles%402x.png" alt="">
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="the-content">
+<section class="container"><div class="grid"><div class="row"><div class="col col-default"><p>It has never been easier for companies to connect with their customers. Between social media, email, phone, messaging apps, and live chat, companies can quickly and easily engage their customers in the channels that are most important to them. This <a href="../omnichannel-vs-way/index.html" target="_blank">omnichannel</a> ecosystem provides considerable benefits to customers and companies alike, and a key tool that optimizes this support environment is the CRM database.</p>
+<p>CRM, or customer relationship management, employs databases that are used to automatically collect, store, and analyze all the information that a company collects about its customers, whether it’s a post on a social media account, a purchase made at an online store, a help desk call, or participation in a webinar. The CRM database then makes all of this information available in one customizable dashboard.</p>
+<p>Here’s what CRM does best: it makes it easier to connect the dots between sales, marketing, and support, it helps organize <a href="../using-crm-sales-pipeline-management/index.html" target="_blank">sales leads</a> into one place, and most important, it provides the kind of global view of the customer experience that fuels retention and loyalty efforts. In this article, we’ll explore the finer details of the CRM database, including how to create one and ultimately maximize its effect on your business.</p>
+<h2>What is a CRM database?</h2>
+<p>CRM databases have evolved a lot in the past 30 years. Originally, CRM was a place that managers could go to understand their company’ s sales pipeline. Oftentimes this information was kept in a simple tool like a spreadsheet, which helped sales reps and executive management plan ahead for the next quarter or year. Modern CRM systems have since evolved into sophisticated software databases that can connect to every tool that a company uses to engage its customers. CRM databases make it easy to improve the customer experience, while giving the company the tools to increase sales and give their customers exceptional support.</p>
+<p>A CRM database collects every interaction that a business has with its customers in one place and then makes all of that information available to the company in one customizable dashboard. This means that support agents don’t need to log in and out of multiple systems, copying and pasting account numbers into different software tools to get basic information about a customer. With CRM, all of the data created about customers across disparate tools, accounts, and systems is automatically stored in the database and easily accessible to everyone on the team.</p>
+<p>CRM also helps companies make sense out of all the data they’re collecting about their customers, with deep, actionable analytics that help them understand the customer journey and how to make them happy. This can take the form of evaluating the efficacy of marketing automation campaigns, finding valuable cross-sell opportunities, or identifying ways to improve the speed and efficiency of its customer service reps or sales team. Companies can create customized reports based on the KPIs that are most important to it and its workflow. And of course, just like the CRM of days past, it can provide valuable insights into a company’s sales pipeline, helping to guide a company’s planning and projections.</p>
+<h2>Why do you need a CRM database?</h2>
+<p>There are a number of things that companies should consider when evaluating if a CRM solution is right for their business. First, does the business need help with lead management? CRM can be very helpful for companies that have a high volume of leads, because it creates timelines for each contact that are easy to track. CRM also allows companies to set automatic reminders for each contact so prospects are assigned to specific salespeople and nothing slips through the cracks.</p>
+<p>CRM can also be incredibly helpful for organizations whose sales leads have multiple touchpoints inside a company, or have long, complex sales cycles. If a customer is in touch with sales, support, and product, a CRM system will help companies make sure—by providing a 360-degree view of the customer—that they’re not duplicating work or inconveniencing a lead by asking for the same information multiple times.</p>
+<p>Data-driven companies also have a lot to gain by considering a CRM database. By bringing all of a company’s data sources into one place, CRM can run actionable reports on just about any aspect of a company’s business, from sales forecasts to customer satisfaction metrics, like <a href="../making-the-most-of-nps-survey/index.html" target="_blank">Net Promoter Scores</a>℠ and <a href="../customize-csat-surveys/index.html" target="_blank">CSAT</a>.</p>
+<p>CRM solutions are also valuable for companies that want to run marketing automation, like email marketing campaigns. CRM makes it easy to do everything from sending newsletters to a company’s entire customer base to implementing sophisticated segmentation for highly targeted offers.</p>
+<h2>What are the core elements of building a CRM database?</h2>
+<p>CRM can be a powerful addition to almost any organization, but its impact will only be as good as the data that is put into it, and the way it is used within an organization. </p>
+<p>The first core element of a CRM system is people management. As noted previously, CRM makes it easy to deploy people in an organization to solve customer problems, follow up with sales leads, or manage marketing automation campaigns. But CRM software also enables managers to assign and track work for everyone on the team, as well as provide transparency about the state of projects, sales cycles, and more.</p>
+<p>Contact management is also a critical element of customer relationship management platforms. By storing all of a company’s contacts in one place that is updated automatically, it’s easy for the entire company to have fast access to some of its most critical information. When sales reps can spend more time working with customers and less time updating contact info, they’re able to close more deals, faster.</p>
+<p>Another element of CRM software is lead management. As leads are entered into the system, CRM makes it easy to automatically assign salespeople, define next steps, and track their progress. It also makes it easy to stay on top of next steps for leads that may have multiple touchpoints at a company. With CRM there’s one centralized place for updates, so multiple team members aren’t constantly searching for new information.</p>
+<p>Sales task automation is another core element of CRM databases. By automating many of the business tasks associated with sales, such as order processing, information sharing, order tracking, and contact management, sales task management helps sales teams run smoothly and efficiently, enabling a stronger focus on customers, not on administrative tasks.</p>
+<p>Customer service is also a core element of CRM databases. Since CRM brings in every interaction with a customer into a unified dashboard, customer service agents have everything they need to solve customer problems—no need for logging in and out of different systems to get information like account numbers, order history, or previous interactions with service and support. That means customers aren’t waiting impatiently while a support rep scrambles to get the full picture—and, importantly, it eliminates the need for consumers to repeat themselves, especially if they get transferred to another team member.</p>
+<p>CRM databases can also play a key role in enabling marketing automation. By giving marketers powerful ways to segment their customers—and, crucially, integrating with common tools like MailChimp—CRM helps businesses conduct and measure the success of programs like email marketing campaigns.</p>
+<p>Finally, reporting and analytics are a central component of CRM systems. Companies can use CRM to create dashboards and reporting based on their own unique KPIs and business requirements. From tracking customer service ticket resolution times to understanding a company’s entire sales pipeline for the year, CRMs make it easier to improve customer relationships.</p>
+<h2>How do companies benefit from creating a CRM database?</h2>
+<p>One of the biggest benefits that companies can expect from using a <a href="../5-ways-use-crm/index.html" target="_blank">CRM database</a> is a centralized database for its sales organization. By eliminating the need for individual sales reps to do the tedious work required in maintaining their own personal databases, CRM automates the process and makes it easy for anyone in the company to get the latest information from the CRM dashboard.</p>
+<p>CRM also makes it simple to manage communications with all customers and potential customers in one place. Companies that use CRM are able to see the company’s entire history communicating with each customer with the click of a button. The CRM database also makes relationship management simple, with the ability to set reminders and assign agents to keep deals moving, while providing managers the transparency to make sure leads are being followed up on.</p>
+<p>Automating data entry is another benefit for companies that implement a CRM solution. Reps and agents don’t need to update information about their calls or emails with clients into a different system. Everything is logged automatically in the CRM solution, freeing up employees to do higher value work to close deals and solve customer problems.</p>
+<p>CRM benefits also include powerful ways to organize all of a company’s contacts. The CRM makes it easy to see whether the customer has visited a web site, contacted support, requested a demo, as well as notes from agents who handled previous interactions. The CRM also makes all of this data searchable, no matter where a customer is in the pipeline.</p>
+<p>Another important benefit of CRM systems is the ability to easily segment a company’s customers. When marketing teams can segment their customers, they’re able to deliver email marketing campaigns that are more personalized and effective. With CRM, segmentation by demographic and geographic information is possible, along with more nuanced information, like how long it’s been since the customer visited a web site or whether they’ve looked at a specific offer.</p>
+<p>CRM also gives businesses the ability to create sales reports, which help them manage their pipeline with customized dashboards that are fine-tuned to track a company’s most important KPIs. CRM reporting provides the kind of data that enables managers to understand the work that’s happening to close deals, while also providing insight into revenue projections for leadership.</p>
+<p>Companies that use CRM also benefit from the ability to streamline communications across many disparate teams. Since everyone is working in the same CRM dashboard, whether they’re in sales, service, support, or management, it’s easy to assign work, track progress, and collaborate with teammates to solve customer problems, keep deals moving, and discover new opportunities.</p>
+<p>Another benefit of CRM for growing companies is the ability to keep the same software as the business grows. Because CRM is versatile—especially cloud-based, software-as-a-service (SaaS) versions—companies can add features and functionality not just as customer expectations and needs change but as business software evolves, whether that’s new shipping software, social media outlets, or accounting tools.</p>
+<h2>What can a CRM database be used for?</h2>
+<p>CRM systems’ flexibility means they’re eminently customizable, providing the kind of pliability that allows them to fit into the workflows of companies ranging from global enterprises to entrepreneurial startups. By consolidating customer information into a single environment and providing workflow customization, CRMs can, for example, help a sales team create a repeatable sales process for greater efficiency. By having a playbook for how to close deals, and a tool that automatically updates every contact with customers without any manual data entry, sales teams can focus more on building relationships and less on rote work.</p>
+<p>While employees can work more efficiently with a CRM, their supervisors can also use the tool to help manage their teams. Those leaders can turn to a CRM for help with assigning work, gaining visibility into progress, and track metrics without needing to ask for laboriously created reports from other teams.</p>
+<p>Meanwhile, CRM is also an effective way to manage customer service organizations. By giving support agents access to all of a customer’s information in one place, it’s easier for customer service and support teams to solve customer problems without having to shuffle customers between different teams—a key pain point that leads to lower customer satisfaction—or log in and out of disparate systems to get info about things like shipping, order fulfilment, or past service calls. And CRM databases also aid support teams in providing proactive service by automating some of those common customer queries, such as the status of an order or return.</p>
+<h2>How does a CRM help you organize customer data?</h2>
+<p>One of the most impactful features of customer relationship management software is its ability to help a business organize its customer data. Customer data can come from dozens of sources within a company, whether that’s a website visit, a call to a support team, a request for a demo, or a delivery address from an online order. The result is usually a chaotic blend of different kinds of data, coming from a number of different software solutions, spreadsheets that are managed manually, and email inboxes. CRM helps bring order to the chaos.</p>
+<p>When a business deploys a CRM platform, one of the most important things it does—if it wants to make the most out of the solution—is develop a thoughtful CRM strategy. That takes understanding the customer journey: the steps (and pain points) that begin with someone being a potential customer to when they become a customer—and, ultimately, a repeat customer. The customer journey documents the ways a customer finds the business, how the customers learns about the company, decides to become a customer, gets support from the company, and later re-engages with it.</p>
+<p>When a company understands the customer journey as part of its CRM strategy, it uses this information to define the kinds of information that is stored in the CRM database. This could be metrics like purchase history, demo requests, customer support contacts, and more. The CRM then connects to the various systems a business uses to manage these touchpoints and combines them into one 360-degree holistic view of customers that can be searched, segmented, and updated in real time without manual data entry.</p>
+<h2>Tools needed to create a CRM database</h2>
+<p>CRM databases are sophisticated pieces of software; creating a custom CRM database from scratch requires extensive software engineering skills and expensive onsite servers for hosting. While creating your own on-premise CRM database is an option, note that it requires a team of IT professionals to administer the service, add features over time, and manage security to keep customer data safe.</p>
+<p>That said, popular <a href="../choose-best-crm-business-needs/index.html" target="_blank">CRM</a> database software packages already exist that can serve the needs of the vast majority of businesses. For most companies, it is easier to work with a service provider to either purchase and install licenses of CRM database software, customize an open source database, or use a cloud-based CRM.</p>
+<p>Open source CRM systems are software solutions that are available online and are downloaded and installed on a company’s own servers. One of the benefits of open source CRM is how it enables companies to build and customize the solution for specific use cases. It also provides total control of customer data and is inexpensive, with many free options available.</p>
+<p>Of course, like any free solution, you get what you pay for with open source CRM. Many solutions only offer basic functionality and require substantial work to customize. With open source CRM, companies must install, manage, and customize the CRM system themselves, which requires expensive hardware and dedicated IT professionals to manage the solution. Open source CRM solutions also require companies to manage their own data security measures to keep their important customer information safe. </p>
+<p>On-premise is another type of CRM that businesses can evaluate. Like open source solutions, on-premise solutions reside on a company’s own servers. On-premise solutions also require dedicated hardware and IT staff to manage, operate, and maintain the CRM software. Unlike free open source CRM systems, on-premise options can be much more robust and feature rich. On-premise solutions are also the most expensive CRM options, as they require a large upfront payment to purchase the software.</p>
+<p>Cloud-based CRM is a great option for companies looking to quickly and easily get up and running with CRM, without having to manage the actual software themselves. Cloud-based CRM solutions are run by service providers and offered to companies in a SaaS model. </p>
+<p>With cloud-based solutions, the CRM system runs on the provider’s servers. That means companies do not need to worry about maintaining their own servers or having a team of IT professionals to manage the system. Cloud-based CRM companies also have large teams of security experts that constantly monitor the system, which also features many layers of enterprise-grade security protocols and measures. </p>
+<p>With cloud-based CRM, companies simply log into the system from anywhere with an internet connection and begin working. And unlike on-premise services, which require a large upfront expense, SaaS solutions let companies pay as they go with a monthly fee to use the service. Another benefit of web-based CRM is that companies can add or remove features and functionality as their companies grow and evolve.</p>
+<p>Every company is different and their specific CRM needs will similarly vary. However, it is important for businesses to develop a <a href="../10-common-crm-problems-fix/index.html" target="_blank">CRM strategy</a> as they are evaluating potential CRM providers. The more a company knows about its customer journey, the tools it needs to integrate into the CRM database, and the kinds of reporting and analytics are important to it, the easier it will be to evaluate different vendors. </p>
+<p>Another key consideration for any company that is evaluating different CRM database software packages is security features and resources. Customer data in CRM systems can be an attractive prize for hackers, so it’s critical that companies consider who will be managing and monitoring the CRM security protocols. </p>
+<p>When exploring different providers, it’s also recommended that businesses seek references from similar companies who have successfully implemented a CRM database, as customer stories and case studies can be an excellent guide.</p>
+</p>
+<p style="font-size:10px"><em>Net Promoter and NPS are registered U.S. trademarks, and Net Promoter Score and Net Promoter System are service marks of Bain & Company, Inc., Satmetrix Systems, Inc., and Fred Reichheld.</em></p>
+</div></div></div></section> </section>
+<section class="pre-footer-ctas">
+<div class="container grid">
+<div class="row no-wrap">
+<div class="col col-small-7">
+<div class="gated-content-cta">
+<div class="relationframe relationframe-square">
+<img class="lazyload no-src" data-src="https://zen-marketing-content.s3.amazonaws.com/content/Artboard%202680x360px_Clifford%402x.png" alt="">
+</div>
+<div class="gated-content-cta-content">
+<h2 class="h4">Serve your customers better</h2>
+<p class="h6">CRM software can help you build relationships with customers, boost engagement, and achieve better business outcomes.</p>
+<div class="cta-section">
+<a href="../sunshine-platform-use-cases/index.html" class="button button-medium button-primary-default" target="">Learn more</a> </div>
+</div>
+</div>
+</div>
+<div class="col">
+
+<div class="newsletter-signup-cta">
+<div class="newsletter-signup-cta-content">
+<h4>Subscribe to The Library</h4>
+<p class="h6">The best source of information for customer service, sales tips, guides, and industry best practices. Join us.</p>
+</div>
+<form class="greenhouse-form standalone-newsletter-form js-standalone-newsletter-form" method="post">
+<div class="field-container js-field-container">
+<div class="field-wrap-col-2">
+<div class="field-wrap js-field-wrap">
+<label class="field-label" for="owner[email]">Email address</label><input type="email" class="email required js-field" id="owner[email]" name="owner[email]" autocomplete="email" placeholder="" tabindex="0" /><div class="field-error js-field-error">Please enter a valid email address</div> </div>
+<div class="field-wrap field-wrap-submit">
+<a href="#" class="form-submit-btn js-submit-btn js-standalone-newsletter-subscribe button button-medium button-primary-default" type="submit">Subscribe</a> </div>
+</div>
+<div class="field-wrap opt-in-field js-opt-in-field">
+<div class="field-wrap js-field-wrap opt-in-checkbox js-opt-in-checkbox" data-force="">
+<label class="checkbox-container">
+<input type="checkbox" class="js-opt-in-checkbox js-field" id="optinToMarketing" name="optinToMarketing" checked value="TRUE">
+<span class="custom-check"></span>
+Please also send me occasional emails about Zendesk products and services. (You can unsubscribe at any time.) </label>
+</div>
+<div class="field-wrap js-field-wrap opt-in-radio js-opt-in-radio">
+<div class="radio-button-container js-radio-button-container">
+<span class="radio-button-copy">Please also send me occasional emails about Zendesk products and services. (You can unsubscribe at any time.)</span>
+<div class="radio-button-fields js-radio-button-fields">
+<label class="radio-label" for="optinToMarketing-TRUE">Yes <input class="js-opt-in-radio js-field required" type="radio" name="optinToMarketing" id="optinToMarketing-TRUE" value="TRUE">
+<span class="custom-radio"></span>
+</label>
+<label class="radio-label" for="optinToMarketing-FALSE">No <input class="js-opt-in-radio js-field required" type="radio" name="optinToMarketing" id="optinToMarketing-FALSE" value="FALSE">
+<span class="custom-radio"></span>
+</label>
+</div>
+<div class="field-error js-field-error">Please select an option</div> </div>
+</div>
+</div>
+<div style="display: none;">
+<input type="hidden" name="Web_Offer_Name__c" id="Web_Offer_Name__c" value="How to create a CRM database" /><input type="hidden" name="GA_Medium" id="GA_Medium" value="" /><input type="hidden" name="GA_Source" id="GA_Source" value="" /><input type="hidden" name="Opti_ID" id="Opti_ID" value="" /><input type="hidden" name="Opti_Variation_ID" id="Opti_Variation_ID" value="" /><input type="hidden" name="trial_extras[Opti_ID]" id="trial_extras[Opti_ID]" value="" /><input type="hidden" name="trial_extras[Opti_Variation_ID]" id="trial_extras[Opti_Variation_ID]" value="" /><input type="hidden" name="trial_extras[SegmentAnonID]" id="trial_extras[SegmentAnonID]" value="" /><input type="hidden" name="trial_extras[Inferred_City]" id="trial_extras[Inferred_City]" value="" /><input type="hidden" name="trial_extras[Inferred_State]" id="trial_extras[Inferred_State]" value="" /><input type="hidden" name="trial_extras[Inferred_CCode]" id="trial_extras[Inferred_CCode]" value="" /><input type="hidden" name="trial_extras[Inferred_Country]" id="trial_extras[Inferred_Country]" value="" /><input type="hidden" name="trial_extras[Inferred_Zip]" id="trial_extras[Inferred_Zip]" value="" /><input type="hidden" name="trial_extras[Inferred_Region]" id="trial_extras[Inferred_Region]" value="" /><input type="hidden" name="trial_extras[Inferred_IP_Address]" id="trial_extras[Inferred_IP_Address]" value="" /><input type="hidden" name="address[postal]" id="address[postal]" value="" /><input type="hidden" name="rv_account" id="rv_account" value="" /><input type="hidden" name="rv_member" id="rv_member" value="" /><input type="hidden" name="partner_account" id="partner_account" value="" /><input type="hidden" name="partner_contact" id="partner_contact" value="" /><input type="hidden" name="location[Inferred_IP_Address]" id="location[Inferred_IP_Address]" value="" /><input type="hidden" name="trial_extras[DB_City__c]" id="trial_extras[DB_City__c]" value="" /><input type="hidden" name="trial_extras[DB_State__c]" id="trial_extras[DB_State__c]" value="" /><input type="hidden" name="trial_extras[DB_CCode__c]" id="trial_extras[DB_CCode__c]" value="" /><input type="hidden" name="trial_extras[Country__c]" id="trial_extras[Country__c]" value="" /><input type="hidden" name="trial_extras[DB_Zip__c]" id="trial_extras[DB_Zip__c]" value="" /><input type="hidden" name="trial_extras[Region__c]" id="trial_extras[Region__c]" value="" /><input type="hidden" name="trial_extras[First_Touch__c]" id="trial_extras[First_Touch__c]" /><input type="hidden" name="trial_extras[Last_Touch__c]" id="trial_extras[Last_Touch__c]" /><input type="hidden" name="timeStarted" id="timeStarted" value="" /><input type="hidden" name="timeDelta" id="timeDelta" value="" /><input type="hidden" name="timeEnded" id="timeEnded" value="" /><input type="hidden" name="industry" id="industry" value="" /><input type="hidden" name="MailingCountry" id="MailingCountry" value="" /><input type="hidden" name="owner[name]" id="owner[name]" value="" /><input type="hidden" name="last_page_before_lead" id="last_page_before_lead" value="" /><input type="hidden" name="current_page_url" id="current_page_url" value="" /> <input type="hidden" name="account[name]" id="account[name]" value="" /><input type="hidden" name="account[help_desk_size]" id="account[help_desk_size]" value="" /> <input type="hidden" name="elqCustomerGUID" id="elqCustomerGUID" value="" /><input type="hidden" name="elqCookieWrite" id="elqCookieWrite" value="0" /><input type="hidden" name="elqSiteId" id="elqSiteId" value="2136619493" /><input type="hidden" name="elqCampaignId" id="elqCampaignId" value="" /><input type="hidden" name="elqFormName" id="elqFormName" value="blogform" /> </div>
+</div>
+<div class="success-message js-success-message">
+<span class="icon-success"></span>
+<p>Welcome to the club!</p>
+</div>
+<div class="error-message js-error-message">
+<span class="icon-error"></span>
+<p>Oops! Sorry something went wrong, try again later?</p>
+</div>
+<div class="loading js-loading">
+<div class="loading-inner">
+<span class="loading-img"></span>
+</div>
+</div>
+</form></div> </div>
+</div>
+</div>
+</section>
+<section class="related-posts">
+<div class="container">
+<h2>Related stories</h2>
+<div class="grid">
+<div class="row">
+<div class="post-block col col-xsmall-6 col-small-3">
+<a href="../choosing-customer-service-software-startup/index.html" class="image-container post-block-image relationframe  ">
+<img class="lazyload no-src" data-src="https://zen-marketing-content.s3-us-west-1.amazonaws.com/content/startup-cx-software-hero.png" alt="Choosing customer service software for your startup">
+</a>
+<a href="../tags/article/index.html" class="post-type post-type-small post-type-article anchor" target=""><span>Article</span></a> <h4 class="post-title h5 strong">
+<a href="../choosing-customer-service-software-startup/index.html">
+Choosing customer service software for your startup </a>
+</h4>
+<p class="post-excerpt">Nearly half of startup leaders we surveyed for the Startups CX Benchmark Report 2020 said they&mldr;</p>
+<ul class="post-tag-list">
+<li><a class="post-tag" href="../tags/startups/index.html">Startups</a></li>
+</ul>
+</div>
+<div class="post-block col col-xsmall-6 col-small-3">
+<a href="../verimatrix-zendesk-support-optimize-customer-service-operations/index.html" class="image-container post-block-image relationframe  ">
+<img class="lazyload no-src" data-src="https://d1eipm3vz40hy0.cloudfront.net/images/blog/EmailSystem-699_Final_x2.jpg" alt="Verimatrix uses Zendesk Support to optimize their customer service operations">
+</a>
+<a href="../tags/whitepaper/index.html" class="post-type post-type-small post-type-whitepaper anchor" target=""><span>White Paper</span></a> <h4 class="post-title h5 strong">
+<a href="../verimatrix-zendesk-support-optimize-customer-service-operations/index.html">
+Verimatrix uses Zendesk Support to optimize their customer service operations </a>
+</h4>
+<p class="post-excerpt">Verimatrix switched to Zendesk and scored big Frustrated with their legacy support solution, which took months&mldr;</p>
+<ul class="post-tag-list">
+</ul>
+</div>
+<div class="post-block col col-xsmall-6 col-small-3">
+<a href="../top-reasons-salesforce-customers-are-switching-to-zendesk/index.html" class="image-container post-block-image relationframe  ">
+<img class="lazyload no-src" data-src="https://d1eipm3vz40hy0.cloudfront.net/images/blog/top-reasons-salesforce-customers-are-switching-to-zendesk-header.jpg" alt="Top 5 reasons Salesforce customers are switching to Zendesk">
+</a>
+<a href="../tags/guide/index.html" class="post-type post-type-small post-type-guide anchor" target=""><span>Guide</span></a> <h4 class="post-title h5 strong">
+<a href="../top-reasons-salesforce-customers-are-switching-to-zendesk/index.html">
+Top 5 reasons Salesforce customers are switching to Zendesk </a>
+</h4>
+<p class="post-excerpt">An increasing number of organizations using Salesforce for support are switching to Zendesk in order to&mldr;</p>
+<ul class="post-tag-list">
+</ul>
+</div>
+<div class="post-block col col-xsmall-6 col-small-3">
+<a href="../chatbots-for-business/index.html" class="image-container post-block-image relationframe  ">
+<img class="lazyload no-src" data-src="https://d26a57ydsghvgx.cloudfront.net/content/What-is-a-chatbot%3F.png" alt="The ultimate guide to customer service chatbots">
+</a>
+<a href="../tags/article/index.html" class="post-type post-type-small post-type-article anchor" target=""><span>Article</span></a> <h4 class="post-title h5 strong">
+<a href="../chatbots-for-business/index.html">
+The ultimate guide to customer service chatbots </a>
+</h4>
+<p class="post-excerpt">Chatbots are most successful when customer service leaders use them to empower agents. Learn how to foster agent-bot partnerships</p>
+<ul class="post-tag-list">
+<li><a class="post-tag" href="../tags/artificial-intelligence/index.html">artificial intelligence</a></li>
+<li><a class="post-tag" href="../tags/help-center-software/index.html">Help center software</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+</article>
+<div id="proactive-offer-container"></div>
+<footer class="global-footer">
+<nav class="container">
+<div class="grid five-column primary-nav">
+<div class="row">
+<div class="col col-1 SL_swap" id="smartling-nav-footer-product">
+<h6>Our Products</h6>
+<ul class="no-list-style">
+<li><a href="../../support-suite/index.html">The Support Suite</a></li>
+<li><a href="../../sales-suite/index.html">The Sales Suite</a></li>
+<li><a href="../../support/index.html">Support</a></li>
+<li><a href="../../guide/index.html">Guide</a></li>
+<li><a href="../../chat/index.html">Chat</a></li>
+<li><a href="../../talk/index.html">Talk</a></li>
+<li><a href="../../sell/index.html">Sell</a></li>
+<li><a href="../../explore/index.html">Explore</a></li>
+<li><a href="../../gather/index.html">Gather</a></li>
+<li><a href="../../platform/index.html">Sunshine</a></li>
+<li><a href="../../conversations/index.html" target="_blank">Sunshine Conversations</a></li>
+<li><a href="../../apps/index.html">Integrations &amp; Apps</a></li>
+<li><a href="../../whats-new/index.html">Product Updates</a></li>
+</ul>
+</div>
+<div class="col col-1 SL_swap" id="smartling-nav-footer-features">
+<h6>Top Features</h6>
+<ul class="no-list-style">
+<li><a href="../../support/features/customer-service-management-software/index.html">Customer Service Software</a></li>
+<li><a href="../../help-desk-software/features/ticketing-system/index.html">Ticketing System</a></li>
+<li><a href="../../guide/features/knowledge-base-software/index.html">Knowledge Base</a></li>
+<li><a href="../../guide/features/community-software/index.html">Community Forums</a></li>
+<li><a href="../../help-desk-software/index.html">Help Desk Software</a></li>
+<li><a href="../../product/zendesk-security/index.html">Security</a></li>
+</ul>
+</div>
+<div class="col col-1 SL_swap" id="smartling-nav-footer-resources">
+<h6>Resources</h6>
+<ul class="no-list-style">
+<li><a href="https://support.zendesk.com/hc/en-us/" target="_blank">Product Support</a></li>
+<li><a href="../../demo/index.html">Request a demo</a></li>
+<li class="SL_norewrite"><a href="../index.html">The Library</a></li>
+<li><a href="../../customer-experience/training/index.html#training">Training</a></li>
+<li><a href="../../partners/index.html">Services &#038; Partners</a></li>
+<li><a href="https://relate.zendesk.com/" target="_blank">Relate by Zendesk</a></li>
+<li class="js-localized-content" data-show-for="en-us"><a href="../../company/events/index.html#webinars">Webinars</a></li>
+<li class="js-localized-content" data-hide-for="en-us"><a href="../../support/webinars/index.html">Webinars</a></li>
+<li><a href="../../why-zendesk/customers/index.html">Customer Stories</a></li>
+<li><a href="../../customer-experience/index.html">Services</a></li>
+</ul>
+</div>
+<div class="col col-1 SL_swap" id="smartling-nav-footer-company">
+<h6>Company</h6>
+<ul class="no-list-style">
+<li><a href="../../about/index.html">About us</a></li>
+<li><a href="../../company/press/index.html">Press</a></li>
+<li><a href="https://investor.zendesk.com/" target="_blank">Investors</a></li>
+<li><a href="../../company/events/index.html">Events</a></li>
+<li><a href="https://jobs.zendesk.com/" target="_blank">Careers</a></li>
+<li><a href="../../diversity-inclusion/index.html">Diversity & Inclusion</a></li>
+<li><a href="../../contact/index.html">Contact us</a></li>
+<li><a href="../../sitemap/index.html">Sitemap</a></li>
+<li><a href="https://status.zendesk.com/" target="_blank">System Status</a></li>
+<li><a href="https://help.zendesk.com/hc/en-us" target="_blank">Product Help</a></li>
+<li><a href="../../company/legal/index.html">Legal</a></li>
+</ul>
+</div>
+<div class="col col-1 SL_swap" id="smartling-nav-footer-favorites">
+<h6>Favorite Things</h6>
+<ul class="no-list-style">
+<li><a href="../../enterprise/index.html">Zendesk for Enterprise</a></li>
+<li><a href="../../startups/index.html">Zendesk for Startups</a></li>
+<li><a href="../../benchmark/index.html">Zendesk Benchmark</a></li>
+<li><a href="../../small-business/index.html">Zendesk for Small Business</a></li>
+<li><a href="../gartner-magic-quadrant-crm/index.html">Gartner CRM Magic Quadrant</a></li>
+<li><a href="../../customer-experience-trends/index.html">Customer Experience Trends</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="grid secondary-nav">
+<div class="row">
+<div class="col col-small-6 col-medium-7 newsletter-section">
+<div class="flex-container">
+<div class="newsletter-text">
+<h6>Enter the Fold</h6>
+<p>Subscribe to our newsletter.</p>
+</div>
+<div id="newsletter-form" class="newsletter-sub">
+<form id="newsletter" class="greenhouse-form js-newsletter-form-footer" method="post">
+<div class="field-container js-field-container">
+
+<div class="primary-fields">
+<div class="field-wrap js-field-wrap">
+<div class="email-field">
+<input type="email" class="email required js-field js-footer-newsletter-email" id="owner[email]" name="owner[email]" autocomplete="email" placeholder="What&apos;s your email?" aria-label="Enter your email and subscribe to our newsletter" tabindex="0" /> 
+<button class="form-submit-btn js-submit-btn" type="submit"><span class="text">Subscribe</span></button>
+
+</div>
+<div class="field-error js-field-error">Please enter a valid email address</div> </div>
+</div>
+
+<div class="field-wrap opt-in-field js-opt-in-field">
+<div class="field-wrap js-field-wrap opt-in-checkbox js-opt-in-checkbox" data-force="">
+<label class="checkbox-container">
+<input type="checkbox" class="js-opt-in-checkbox js-field" id="optinToMarketing" name="optinToMarketing" checked value="TRUE">
+<span class="custom-check"></span>
+Please also send me occasional emails about Zendesk products and services. (You can unsubscribe at any time.) </label>
+</div>
+<div class="field-wrap js-field-wrap opt-in-radio js-opt-in-radio">
+<div class="radio-button-container js-radio-button-container">
+<span class="radio-button-copy">Please also send me occasional emails about Zendesk products and services. (You can unsubscribe at any time.)</span>
+<div class="radio-button-fields js-radio-button-fields">
+<label class="radio-label" for="optinToMarketing-TRUE">Yes <input class="js-opt-in-radio js-field required" type="radio" name="optinToMarketing" id="optinToMarketing-TRUE" value="TRUE">
+<span class="custom-radio"></span>
+</label>
+<label class="radio-label" for="optinToMarketing-FALSE">No <input class="js-opt-in-radio js-field required" type="radio" name="optinToMarketing" id="optinToMarketing-FALSE" value="FALSE">
+<span class="custom-radio"></span>
+</label>
+</div>
+<div class="field-error js-field-error">Please select an option</div> </div>
+</div>
+</div>
+
+<div style="display: none;">
+<input type="hidden" name="Web_Offer_Name__c" id="Web_Offer_Name__c" value="How to create a CRM database" /><input type="hidden" name="GA_Medium" id="GA_Medium" value="" /><input type="hidden" name="GA_Source" id="GA_Source" value="" /><input type="hidden" name="Opti_ID" id="Opti_ID" value="" /><input type="hidden" name="Opti_Variation_ID" id="Opti_Variation_ID" value="" /><input type="hidden" name="trial_extras[Opti_ID]" id="trial_extras[Opti_ID]" value="" /><input type="hidden" name="trial_extras[Opti_Variation_ID]" id="trial_extras[Opti_Variation_ID]" value="" /><input type="hidden" name="trial_extras[SegmentAnonID]" id="trial_extras[SegmentAnonID]" value="" /><input type="hidden" name="trial_extras[Inferred_City]" id="trial_extras[Inferred_City]" value="" /><input type="hidden" name="trial_extras[Inferred_State]" id="trial_extras[Inferred_State]" value="" /><input type="hidden" name="trial_extras[Inferred_CCode]" id="trial_extras[Inferred_CCode]" value="" /><input type="hidden" name="trial_extras[Inferred_Country]" id="trial_extras[Inferred_Country]" value="" /><input type="hidden" name="trial_extras[Inferred_Zip]" id="trial_extras[Inferred_Zip]" value="" /><input type="hidden" name="trial_extras[Inferred_Region]" id="trial_extras[Inferred_Region]" value="" /><input type="hidden" name="trial_extras[Inferred_IP_Address]" id="trial_extras[Inferred_IP_Address]" value="" /><input type="hidden" name="address[postal]" id="address[postal]" value="" /><input type="hidden" name="rv_account" id="rv_account" value="" /><input type="hidden" name="rv_member" id="rv_member" value="" /><input type="hidden" name="partner_account" id="partner_account" value="" /><input type="hidden" name="partner_contact" id="partner_contact" value="" /><input type="hidden" name="location[Inferred_IP_Address]" id="location[Inferred_IP_Address]" value="" /><input type="hidden" name="trial_extras[DB_City__c]" id="trial_extras[DB_City__c]" value="" /><input type="hidden" name="trial_extras[DB_State__c]" id="trial_extras[DB_State__c]" value="" /><input type="hidden" name="trial_extras[DB_CCode__c]" id="trial_extras[DB_CCode__c]" value="" /><input type="hidden" name="trial_extras[Country__c]" id="trial_extras[Country__c]" value="" /><input type="hidden" name="trial_extras[DB_Zip__c]" id="trial_extras[DB_Zip__c]" value="" /><input type="hidden" name="trial_extras[Region__c]" id="trial_extras[Region__c]" value="" /><input type="hidden" name="trial_extras[First_Touch__c]" id="trial_extras[First_Touch__c]" /><input type="hidden" name="trial_extras[Last_Touch__c]" id="trial_extras[Last_Touch__c]" /><input type="hidden" name="timeStarted" id="timeStarted" value="" /><input type="hidden" name="timeDelta" id="timeDelta" value="" /><input type="hidden" name="timeEnded" id="timeEnded" value="" /><input type="hidden" name="industry" id="industry" value="" /><input type="hidden" name="MailingCountry" id="MailingCountry" value="" /><input type="hidden" name="owner[name]" id="owner[name]" value="" /><input type="hidden" name="last_page_before_lead" id="last_page_before_lead" value="" /><input type="hidden" name="current_page_url" id="current_page_url" value="" /> <input type="hidden" name="account[name]" id="account[name]" value="" /><input type="hidden" name="account[help_desk_size]" id="account[help_desk_size]" value="" /> <input type="hidden" name="elqCustomerGUID" id="elqCustomerGUID" value="" /><input type="hidden" name="elqCookieWrite" id="elqCookieWrite" value="0" /><input type="hidden" name="elqSiteId" id="elqSiteId" value="2136619493" /><input type="hidden" name="elqCampaignId" id="elqCampaignId" value="" /><input type="hidden" name="elqFormName" id="elqFormName" value="WebsiteNewsletterSignup_new" /> </div>
+</div>
+<div class="success-message js-success-message">
+<span class="icon-success"></span>
+<p>Welcome to the club!</p>
+</div>
+<div class="error-message js-error-message">
+<span class="icon-error"></span>
+<p>Sorry, something went wrong!</p><p>Please reload the page and try again, or you can email us directly at <a class="text-link" href="mailto:support@zendesk.com">support@zendesk.com</a>.</p> </div>
+<div class="loading js-loading">
+<div class="loading-inner">
+<span class="loading-img"></span>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="col col-small-6 col-medium-5 social SL_swap" id="smartling-nav-footer-social">
+<span itemscope itemtype="https://schema.org/Organization">
+<link itemprop="url" href="../../index.html">
+<a itemprop="sameAs" aria-label="Twitter" href="http://www.twitter.com/zendesk" class="notranslate icon-twitter"></a>
+<a itemprop="sameAs" aria-label="Facebook" href="http://www.facebook.com/zendesk" class="notranslate icon-facebook"></a>
+<a itemprop="sameAs" aria-label="LinkedIn" href="http://www.linkedin.com/company/zendesk" class="notranslate icon-linkedin"></a>
+<a itemprop="sameAs" aria-label="YouTube" href="http://www.youtube.com/zendesk" class="notranslate icon-youtube" rel="publisher"></a>
+<a itemprop="sameAs" aria-label="Instagram" href="http://instagram.com/zendesk/" class="notranslate icon-instagram"></a>
+</span>
+</div>
+</div>
+</div>
+<div class="legal-nav">
+<a href="../../company/customers-partners/terms-of-use/index.html">Terms of Use</a>
+<a href="../../company/customers-partners/privacy-policy/index.html">Privacy Policy</a>
+<a href="../../company/policies-procedures/cookie-policy/index.html">Cookie Policy</a>
+<a href="../../legal/index.html">&copy;Zendesk 2020</a>
+</div>
+</nav>
+</footer>
+<script src="../../../web-assets.zendesk.com/js/plugins.min.33cbc0d1.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script><script src="../../../web-assets.zendesk.com/js/cookieUtils.min.ca16ecae.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script><script src="../../../web-assets.zendesk.com/js/formUtils.min.2242e797.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script><script src="../../../web-assets.zendesk.com/js/webutils.min.3e238ebe.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script><script src="../../../web-assets.zendesk.com/js/geoUtils.min.c11593b7.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script>
+
+<script id="schema" type="application/ld+json">{"name":"How to create a CRM database","url":"https:\/\/www.zendesk.com\/blog\/create-crm-database\/","@context":"http:\/\/schema.org","@type":"BlogPosting","inLanguage":"en-US","isPartOf":{"@type":"WebSite","@id":"https:\/\/www.zendesk.com\/#website","url":"https:\/\/www.zendesk.com","sameAs":["https:\/\/www.zendesk.co.jp\/","index.html\/\/www.zendesk.com.mx\/","index.html\/\/www.zendesk.co.uk\/","index.html\/\/www.zendesk.es\/","index.html\/\/www.zendesk.fr\/","index.html\/\/www.zendesk.it\/","index.html\/\/www.zendesk.kr\/","index.html\/\/www.zendesk.com.br\/","index.html\/\/www.zendesk.com.ru\/","index.html\/\/www.zendesk.de\/","index.html\/\/www.zendesk.hk\/","index.html\/\/www.zendesk.nl\/","https:\/\/www.zendesk.tw\/"],"publisher":{"@type":"Organization","@id":"https:\/\/www.zendesk.com#organization","url":"https:\/\/www.zendesk.com","name":"Zendesk.com","sameAs":["https:\/\/www.wikidata.org\/wiki\/Q15401349","index.html\/\/en.wikipedia.org\/wiki\/Zendesk","index.html\/\/www.crunchbase.com\/organization\/zendesk","index.html\/\/instagram.com\/zendesk\/","index.html\/\/www.facebook.com\/zendesk","index.html\/\/www.twitter.com\/zendesk","index.html\/\/www.linkedin.com\/company\/zendesk","https:\/\/www.youtube.com\/zendesk"],"logo":{"@type":"ImageObject","url":"https:\/\/d1eipm3vz40hy0.cloudfront.net\/images\/part-header\/zendesk-logo-amp.png"},"subOrganization":[{"@type":"Organization","@id":"https:\/\/www.zendesk.co.jp\/#organization","name":"Zendesk Japan"},{"@type":"Organization","@id":"https:\/\/www.zendesk.com.mx\/#organization","name":"Zendesk Mexico"},{"@type":"Organization","@id":"https:\/\/www.zendesk.co.uk\/#organization","name":"Zendesk UK"},{"@type":"Organization","@id":"https:\/\/www.zendesk.es\/#organization","name":"Zendesk Espa\u00f1a"},{"@type":"Organization","@id":"https:\/\/www.zendesk.fr\/#organization","name":"Zendesk France"},{"@type":"Organization","@id":"https:\/\/www.zendesk.it\/#organization","name":"Zendesk Italia"},{"@type":"Organization","@id":"https:\/\/www.zendesk.kr\/#organization","name":"Zendesk \ud55c\uad6d"},{"@type":"Organization","@id":"https:\/\/www.zendesk.com.br\/#organization","name":"Zendesk Brasil"},{"@type":"Organization","@id":"https:\/\/www.zendesk.com.ru\/#organization","name":"Zendesk \u0420\u043e\u0441\u0441\u0438\u044f"},{"@type":"Organization","@id":"https:\/\/www.zendesk.de\/#organization","name":"Zendesk Deutschland"},{"@type":"Organization","@id":"https:\/\/www.zendesk.hk\/#organization","name":"Zendesk "},{"@type":"Organization","@id":"https:\/\/www.zendesk.nl\/#organization","name":"Zendesk Nederland"},{"@type":"Organization","@id":"https:\/\/www.zendesk.tw\/#organization","name":"Zendesk \u53f0\u7063"},{"@type":"Organization","@id":"https:\/\/www.zendesk.com\/th\/#organization","name":"Zendesk \u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22"}],"address":[{"@type":"PostalAddress","streetAddress":"1019 Market St","addressLocality":"San Francisco","addressRegion":"CA","postalCode":"94103","addressCountry":{"@type":"country","name":"United States"}},{"@type":"PostalAddress","streetAddress":"5333 Avenue Casgrain #1201","addressLocality":"Montr\u00e9al","addressRegion":"QC","postalCode":"H2T 1X3","addressCountry":{"@type":"country","name":"Canada"}},{"@type":"PostalAddress","streetAddress":"Neue Sch\u00f6nhauser Str. 3-5","addressLocality":"Berlin","postalCode":"10178","addressCountry":{"@type":"country","name":"Germany"}},{"@type":"PostalAddress","streetAddress":"Via San Marco 21","addressLocality":"Milano","postalCode":"20121","addressCountry":{"@type":"country","name":"Italy"}},{"@type":"PostalAddress","streetAddress":"Strawinskylaan 4117 4th Floor","addressLocality":"Amsterdam,","postalCode":"1077 ZX","addressCountry":{"@type":"country","name":"Netherlands"}},{"@type":"PostalAddress","streetAddress":"9 Straits View Marina One West Tower #10-08","postalCode":"018937","addressCountry":{"@type":"country","name":"Singapore"}},{"@type":"PostalAddress","streetAddress":"3\/395 Collins St","addressLocality":"Melbourne","addressRegion":"VIC","postalCode":"3000","addressCountry":{"@type":"country","name":"Australia"}},{"@type":"PostalAddress","streetAddress":"Snaregade 12","addressLocality":"K\u00f8benhavn","postalCode":"1205","addressCountry":{"@type":"country","name":"Denmark"}},{"@type":"PostalAddress","streetAddress":"1, Vittal Mallya Rd","addressLocality":"KG Halli, Shanthala Nagar, Ashok Nagar","addressRegion":"Bengaluru, Karnataka","postalCode":"560001","addressCountry":{"@type":"country","name":"India"}},{"@type":"PostalAddress","streetAddress":"\u3012104-0031","addressLocality":"\u6771\u4eac\u90fd\u4e2d\u592e\u533a\u4eac\u6a4b 2-2-1","addressRegion":"\u4eac\u6a4b\u30a8\u30c9\u30b0\u30e9\u30f3","addressCountry":{"@type":"country","name":"Japan"}},{"@type":"PostalAddress","streetAddress":"5th Ave, Taguig, Metro","addressLocality":"Manila","addressCountry":{"@type":"country","name":"Philippines"}},{"@type":"PostalAddress","streetAddress":"Paseo de la Castellana, 43","addressLocality":"Madrid","postalCode":"28046","addressCountry":{"@type":"country","name":"Spain"}},{"@type":"PostalAddress","streetAddress":"25 W Main St","addressLocality":"Madison","addressRegion":"WI","postalCode":"53703","addressCountry":{"@type":"country","name":"United States"}},{"@type":"PostalAddress","streetAddress":"9 de Julho, 5229 - Jardim Paulista","addressLocality":"S\u00e3o Paulo","addressRegion":"SP","postalCode":"01407-200","addressCountry":{"@type":"country","name":"Brazil"}},{"@type":"PostalAddress","streetAddress":"266 Place Ernest Granier","addressLocality":"","addressRegion":"Montpellier","postalCode":"34000","addressCountry":{"@type":"country","name":"France"}},{"@type":"PostalAddress","streetAddress":"55 Charlemont Pl","addressLocality":"Saint Kevin's","addressRegion":"Dublin","postalCode":"D02 F985","addressCountry":{"@type":"country","name":"Ireland"}},{"@type":"PostalAddress","streetAddress":"373 Gangnam-daero, Seocho-dong","addressLocality":"Seocho-gu","addressRegion":"Seoul","addressCountry":{"@type":"country","name":"South Korea"}},{"@type":"PostalAddress","streetAddress":"Wycz\u00f3\u0142kowskiego 7","addressLocality":"Leona","addressRegion":"Krak\u00f3w","postalCode":"30-118","addressCountry":{"@type":"country","name":"Poland"}},{"@type":"PostalAddress","streetAddress":"173\/19 Asia Centre Building 17,18th Floor S Sathorn Rd,","addressLocality":"Tungmahamek Khet Sathon","addressRegion":"Krung Thep Maha Nakhon","postalCode":"10120","addressCountry":{"@type":"country","name":"Thailand"}}],"contactPoint":[{"@type":"ContactPoint","telephone":"1-888-670-4887","contactOption":"http:\/\/schema.org\/TollFree","areaServed":["US","CA"],"contactType":"customer service","availableLanguage":{"@type":"Language","name":"English"}},{"@type":"ContactPoint","telephone":"+49 30 308 08524","areaServed":"DE","contactType":"customer service","availableLanguage":{"@type":"Language","name":"German"}},{"@type":"ContactPoint","telephone":"+39 040 995 6745","areaServed":"IT","contactType":"customer service","availableLanguage":{"@type":"Language","name":"Italian"}},{"@type":"ContactPoint","telephone":"+44 20 3355 7960","areaServed":"UK","contactType":"customer service","availableLanguage":{"@type":"Language","name":"English"}},{"@type":"ContactPoint","telephone":"+61 3 9008 6775","areaServed":"AU","contactType":"customer service","availableLanguage":{"@type":"Language","name":"English"}},{"@type":"ContactPoint","telephone":"+1300 936 3375","areaServed":"AU","contactType":"Sales","availableLanguage":{"@type":"Language","name":"English"}},{"@type":"ContactPoint","telephone":"+45 78 77 36 00","contactOption":"http:\/\/schema.org\/TollFree","areaServed":"DE","contactType":"customer service","availableLanguage":{"@type":"Language","name":"Danish"}},{"@type":"ContactPoint","telephone":"+81 50 3205 0769","areaServed":"JA","contactType":"customer service","availableLanguage":{"@type":"Language","name":"Japanese"}},{"@type":"ContactPoint","telephone":"+34 51 888 0210","areaServed":"ES","contactType":"customer service","availableLanguage":{"@type":"Language","name":"Spanish"}},{"@type":"ContactPoint","telephone":"+33 9 75 18 20 86","areaServed":"FR","contactType":"customer service","availableLanguage":{"@type":"Language","name":"French"}},{"@type":"ContactPoint","telephone":"+050-4092-00518","areaServed":"KR","contactType":"customer service","availableLanguage":{"@type":"Language","name":"Korean"}}]}},"headline":"How to create a CRM database","image":"https:\/\/d1eipm3vz40hy0.cloudfront.net\/images\/blog-redesign\/Artboard 138680x360px_Bubbles@2x.png","publisher":{"@type":"Organization","name":"Zendesk","sameAs":"https:\/\/www.zendesk.com","logo":{"@type":"ImageObject","url":"https:\/\/d1eipm3vz40hy0.cloudfront.net\/images\/part-header\/zendesk-logo-amp.png"}},"author":{"@type":"Person","name":"Bryce Baer"},"mainEntityOfPage":{"@type":"Webpage","@id":"https:\/\/www.zendesk.com\/blog\/create-crm-database\/"},"datePublished":"2020-03-31","dateCreated":"2020-03-31","dateModified":"2020-07-14","description":"Understanding how to create a CRM database shouldn\u2019t be a mystery. In this post, we break down the benefits of a CRM database and what kind of data it should store.","wordcount":3003,"articleBody":"<p>It has never been easier for companies to connect with their customers. Between social media, email, phone, messaging apps, and live chat, companies can quickly and easily engage their customers in the channels that are most important to them. This <a href=\"https:\/\/www.zendesk.com\/blog\/omnichannel-vs-way\/\" target=\"_blank\">omnichannel<\/a> ecosystem provides considerable benefits to customers and companies alike, and a key tool that optimizes this support environment is the CRM database.<\/p>\r\n<p>CRM, or customer relationship management, employs databases that are used to automatically collect, store, and analyze all the information that a company collects about its customers, whether it\u2019s a post on a social media account, a purchase made at an online store, a help desk call, or participation in a webinar. The CRM database then makes all of this information available in one customizable dashboard.<\/p>\r\n<p>Here\u2019s what CRM does best: it makes it easier to connect the dots between sales, marketing, and support, it helps organize <a href=\"https:\/\/www.zendesk.com\/blog\/using-crm-sales-pipeline-management\/\" target=\"_blank\">sales leads<\/a> into one place, and most important, it provides the kind of global view of the customer experience that fuels retention and loyalty efforts. In this article, we\u2019ll explore the finer details of the CRM database, including how to create one and ultimately maximize its effect on your business.<\/p>\r\n<h2>What is a CRM database?<\/h2>\r\n<p>CRM databases have evolved a lot in the past 30 years. Originally, CRM was a place that managers could go to understand their company\u2019 s sales pipeline. Oftentimes this information was kept in a simple tool like a spreadsheet, which helped sales reps and executive management plan ahead for the next quarter or year. Modern CRM systems have since evolved into sophisticated software databases that can connect to every tool that a company uses to engage its customers. CRM databases make it easy to improve the customer experience, while giving the company the tools to increase sales and give their customers exceptional support.<\/p>\r\n<p>A CRM database collects every interaction that a business has with its customers in one place and then makes all of that information available to the company in one customizable dashboard. This means that support agents don\u2019t need to log in and out of multiple systems, copying and pasting account numbers into different software tools to get basic information about a customer. With CRM, all of the data created about customers across disparate tools, accounts, and systems is automatically stored in the database and easily accessible to everyone on the team.<\/p>\r\n<p>CRM also helps companies make sense out of all the data they\u2019re collecting about their customers, with deep, actionable analytics that help them understand the customer journey and how to make them happy. This can take the form of evaluating the efficacy of marketing automation campaigns, finding valuable cross-sell opportunities, or identifying ways to improve the speed and efficiency of its customer service reps or sales team. Companies can create customized reports based on the KPIs that are most important to it and its workflow. And of course, just like the CRM of days past, it can provide valuable insights into a company\u2019s sales pipeline, helping to guide a company\u2019s planning and projections.<\/p>\r\n<h2>Why do you need a CRM database?<\/h2>\r\n<p>There are a number of things that companies should consider when evaluating if a CRM solution is right for their business. First, does the business need help with lead management? CRM can be very helpful for companies that have a high volume of leads, because it creates timelines for each contact that are easy to track. CRM also allows companies to set automatic reminders for each contact so prospects are assigned to specific salespeople and nothing slips through the cracks.<\/p>\r\n<p>CRM can also be incredibly helpful for organizations whose sales leads have multiple touchpoints inside a company, or have long, complex sales cycles. If a customer is in touch with sales, support, and product, a CRM system will help companies make sure\u2014by providing a 360-degree view of the customer\u2014that they\u2019re not duplicating work or inconveniencing a lead by asking for the same information multiple times.<\/p>\r\n<p>Data-driven companies also have a lot to gain by considering a CRM database. By bringing all of a company\u2019s data sources into one place, CRM can run actionable reports on just about any aspect of a company\u2019s business, from sales forecasts to customer satisfaction metrics, like <a href=\"https:\/\/www.zendesk.com\/blog\/making-the-most-of-nps-survey\/\" target=\"_blank\">Net Promoter Scores<\/a>\u2120 and <a href=\"https:\/\/www.zendesk.com\/blog\/customize-csat-surveys\/\" target=\"_blank\">CSAT<\/a>.<\/p>\r\n<p>CRM solutions are also valuable for companies that want to run marketing automation, like email marketing campaigns. CRM makes it easy to do everything from sending newsletters to a company\u2019s entire customer base to implementing sophisticated segmentation for highly targeted offers.<\/p>\r\n<h2>What are the core elements of building a CRM database?<\/h2>\r\n<p>CRM can be a powerful addition to almost any organization, but its impact will only be as good as the data that is put into it, and the way it is used within an organization. <\/p>\r\n<p>The first core element of a CRM system is people management. As noted previously, CRM makes it easy to deploy people in an organization to solve customer problems, follow up with sales leads, or manage marketing automation campaigns. But CRM software also enables managers to assign and track work for everyone on the team, as well as provide transparency about the state of projects, sales cycles, and more.<\/p>\r\n<p>Contact management is also a critical element of customer relationship management platforms. By storing all of a company\u2019s contacts in one place that is updated automatically, it\u2019s easy for the entire company to have fast access to some of its most critical information. When sales reps can spend more time working with customers and less time updating contact info, they\u2019re able to close more deals, faster.<\/p>\r\n<p>Another element of CRM software is lead management. As leads are entered into the system, CRM makes it easy to automatically assign salespeople, define next steps, and track their progress. It also makes it easy to stay on top of next steps for leads that may have multiple touchpoints at a company. With CRM there\u2019s one centralized place for updates, so multiple team members aren\u2019t constantly searching for new information.<\/p>\r\n<p>Sales task automation is another core element of CRM databases. By automating many of the business tasks associated with sales, such as order processing, information sharing, order tracking, and contact management, sales task management helps sales teams run smoothly and efficiently, enabling a stronger focus on customers, not on administrative tasks.<\/p>\r\n<p>Customer service is also a core element of CRM databases. Since CRM brings in every interaction with a customer into a unified dashboard, customer service agents have everything they need to solve customer problems\u2014no need for logging in and out of different systems to get information like account numbers, order history, or previous interactions with service and support. That means customers aren\u2019t waiting impatiently while a support rep scrambles to get the full picture\u2014and, importantly, it eliminates the need for consumers to repeat themselves, especially if they get transferred to another team member.<\/p>\r\n<p>CRM databases can also play a key role in enabling marketing automation. By giving marketers powerful ways to segment their customers\u2014and, crucially, integrating with common tools like MailChimp\u2014CRM helps businesses conduct and measure the success of programs like email marketing campaigns.<\/p>\r\n<p>Finally, reporting and analytics are a central component of CRM systems. Companies can use CRM to create dashboards and reporting based on their own unique KPIs and business requirements. From tracking customer service ticket resolution times to understanding a company\u2019s entire sales pipeline for the year, CRMs make it easier to improve customer relationships.<\/p>\r\n<h2>How do companies benefit from creating a CRM database?<\/h2>\r\n<p>One of the biggest benefits that companies can expect from using a <a href=\"https:\/\/www.zendesk.com\/blog\/5-ways-use-crm\/\" target=\"_blank\">CRM database<\/a> is a centralized database for its sales organization. By eliminating the need for individual sales reps to do the tedious work required in maintaining their own personal databases, CRM automates the process and makes it easy for anyone in the company to get the latest information from the CRM dashboard.<\/p>\r\n<p>CRM also makes it simple to manage communications with all customers and potential customers in one place. Companies that use CRM are able to see the company\u2019s entire history communicating with each customer with the click of a button. The CRM database also makes relationship management simple, with the ability to set reminders and assign agents to keep deals moving, while providing managers the transparency to make sure leads are being followed up on.<\/p>\r\n<p>Automating data entry is another benefit for companies that implement a CRM solution. Reps and agents don\u2019t need to update information about their calls or emails with clients into a different system. Everything is logged automatically in the CRM solution, freeing up employees to do higher value work to close deals and solve customer problems.<\/p>\r\n<p>CRM benefits also include powerful ways to organize all of a company\u2019s contacts. The CRM makes it easy to see whether the customer has visited a web site, contacted support, requested a demo, as well as notes from agents who handled previous interactions. The CRM also makes all of this data searchable, no matter where a customer is in the pipeline.<\/p>\r\n<p>Another important benefit of CRM systems is the ability to easily segment a company\u2019s customers. When marketing teams can segment their customers, they\u2019re able to deliver email marketing campaigns that are more personalized and effective. With CRM, segmentation by demographic and geographic information is possible, along with more nuanced information, like how long it\u2019s been since the customer visited a web site or whether they\u2019ve looked at a specific offer.<\/p>\r\n<p>CRM also gives businesses the ability to create sales reports, which help them manage their pipeline with customized dashboards that are fine-tuned to track a company\u2019s most important KPIs. CRM reporting provides the kind of data that enables managers to understand the work that\u2019s happening to close deals, while also providing insight into revenue projections for leadership.<\/p>\r\n<p>Companies that use CRM also benefit from the ability to streamline communications across many disparate teams. Since everyone is working in the same CRM dashboard, whether they\u2019re in sales, service, support, or management, it\u2019s easy to assign work, track progress, and collaborate with teammates to solve customer problems, keep deals moving, and discover new opportunities.<\/p>\r\n<p>Another benefit of CRM for growing companies is the ability to keep the same software as the business grows. Because CRM is versatile\u2014especially cloud-based, software-as-a-service (SaaS) versions\u2014companies can add features and functionality not just as customer expectations and needs change but as business software evolves, whether that\u2019s new shipping software, social media outlets, or accounting tools.<\/p>\r\n<h2>What can a CRM database be used for?<\/h2>\r\n<p>CRM systems\u2019 flexibility means they\u2019re eminently customizable, providing the kind of pliability that allows them to fit into the workflows of companies ranging from global enterprises to entrepreneurial startups. By consolidating customer information into a single environment and providing workflow customization, CRMs can, for example, help a sales team create a repeatable sales process for greater efficiency. By having a playbook for how to close deals, and a tool that automatically updates every contact with customers without any manual data entry, sales teams can focus more on building relationships and less on rote work.<\/p>\r\n<p>While employees can work more efficiently with a CRM, their supervisors can also use the tool to help manage their teams. Those leaders can turn to a CRM for help with assigning work, gaining visibility into progress, and track metrics without needing to ask for laboriously created reports from other teams.<\/p>\r\n<p>Meanwhile, CRM is also an effective way to manage customer service organizations. By giving support agents access to all of a customer\u2019s information in one place, it\u2019s easier for customer service and support teams to solve customer problems without having to shuffle customers between different teams\u2014a key pain point that leads to lower customer satisfaction\u2014or log in and out of disparate systems to get info about things like shipping, order fulfilment, or past service calls. And CRM databases also aid support teams in providing proactive service by automating some of those common customer queries, such as the status of an order or return.<\/p>\r\n<h2>How does a CRM help you organize customer data?<\/h2>\r\n<p>One of the most impactful features of customer relationship management software is its ability to help a business organize its customer data. Customer data can come from dozens of sources within a company, whether that\u2019s a website visit, a call to a support team, a request for a demo, or a delivery address from an online order. The result is usually a chaotic blend of different kinds of data, coming from a number of different software solutions, spreadsheets that are managed manually, and email inboxes. CRM helps bring order to the chaos.<\/p>\r\n<p>When a business deploys a CRM platform, one of the most important things it does\u2014if it wants to make the most out of the solution\u2014is develop a thoughtful CRM strategy. That takes understanding the customer journey: the steps (and pain points) that begin with someone being a potential customer to when they become a customer\u2014and, ultimately, a repeat customer. The customer journey documents the ways a customer finds the business, how the customers learns about the company, decides to become a customer, gets support from the company, and later re-engages with it.<\/p>\r\n<p>When a company understands the customer journey as part of its CRM strategy, it uses this information to define the kinds of information that is stored in the CRM database. This could be metrics like purchase history, demo requests, customer support contacts, and more. The CRM then connects to the various systems a business uses to manage these touchpoints and combines them into one 360-degree holistic view of customers that can be searched, segmented, and updated in real time without manual data entry.<\/p>\r\n<h2>Tools needed to create a CRM database<\/h2>\r\n<p>CRM databases are sophisticated pieces of software; creating a custom CRM database from scratch requires extensive software engineering skills and expensive onsite servers for hosting. While creating your own on-premise CRM database is an option, note that it requires a team of IT professionals to administer the service, add features over time, and manage security to keep customer data safe.<\/p>\r\n<p>That said, popular <a href=\"https:\/\/www.zendesk.com\/blog\/choose-best-crm-business-needs\/\" target=\"_blank\">CRM<\/a> database software packages already exist that can serve the needs of the vast majority of businesses. For most companies, it is easier to work with a service provider to either purchase and install licenses of CRM database software, customize an open source database, or use a cloud-based CRM.<\/p>\r\n<p>Open source CRM systems are software solutions that are available online and are downloaded and installed on a company\u2019s own servers. One of the benefits of open source CRM is how it enables companies to build and customize the solution for specific use cases. It also provides total control of customer data and is inexpensive, with many free options available.<\/p>\r\n<p>Of course, like any free solution, you get what you pay for with open source CRM. Many solutions only offer basic functionality and require substantial work to customize. With open source CRM, companies must install, manage, and customize the CRM system themselves, which requires expensive hardware and dedicated IT professionals to manage the solution. Open source CRM solutions also require companies to manage their own data security measures to keep their important customer information safe. <\/p>\r\n<p>On-premise is another type of CRM that businesses can evaluate. Like open source solutions, on-premise solutions reside on a company\u2019s own servers. On-premise solutions also require dedicated hardware and IT staff to manage, operate, and maintain the CRM software. Unlike free open source CRM systems, on-premise options can be much more robust and feature rich. On-premise solutions are also the most expensive CRM options, as they require a large upfront payment to purchase the software.<\/p>\r\n<p>Cloud-based CRM is a great option for companies looking to quickly and easily get up and running with CRM, without having to manage the actual software themselves. Cloud-based CRM solutions are run by service providers and offered to companies in a SaaS model. <\/p>\r\n<p>With cloud-based solutions, the CRM system runs on the provider\u2019s servers. That means companies do not need to worry about maintaining their own servers or having a team of IT professionals to manage the system. Cloud-based CRM companies also have large teams of security experts that constantly monitor the system, which also features many layers of enterprise-grade security protocols and measures. <\/p>\r\n<p>With cloud-based CRM, companies simply log into the system from anywhere with an internet connection and begin working. And unlike on-premise services, which require a large upfront expense, SaaS solutions let companies pay as they go with a monthly fee to use the service. Another benefit of web-based CRM is that companies can add or remove features and functionality as their companies grow and evolve.<\/p>\r\n<p>Every company is different and their specific CRM needs will similarly vary. However, it is important for businesses to develop a <a href=\"https:\/\/www.zendesk.com\/blog\/10-common-crm-problems-fix\/\" target=\"_blank\">CRM strategy<\/a> as they are evaluating potential CRM providers. The more a company knows about its customer journey, the tools it needs to integrate into the CRM database, and the kinds of reporting and analytics are important to it, the easier it will be to evaluate different vendors. <\/p>\r\n<p>Another key consideration for any company that is evaluating different CRM database software packages is security features and resources. Customer data in CRM systems can be an attractive prize for hackers, so it\u2019s critical that companies consider who will be managing and monitoring the CRM security protocols. <\/p>\r\n<p>When exploring different providers, it\u2019s also recommended that businesses seek references from similar companies who have successfully implemented a CRM database, as customer stories and case studies can be an excellent guide.<\/p>\r\n<p><\/p>\r\n<p style=\"font-size:10px\"><em>Net Promoter and NPS are registered U.S. trademarks, and Net Promoter Score and Net Promoter System are service marks of Bain & Company, Inc., Satmetrix Systems, Inc., and Fred Reichheld.<\/em><\/p>\r\n"}</script><script src="../../../web-assets.zendesk.com/js/greenhouse.min.f58bf46f.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script><script src="../../../web-assets.zendesk.com/js/render-promos.min.b396bd69.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script><script src="../../../web-assets.zendesk.com/js/p-blog-common.min.905190d7.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script><script src="../../../web-assets.zendesk.com/js/p-single.min.c2ffce74.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script>
+<div id="ouibounce-modal" class="ouibounce-blog-newsletter" data-popup-type="blog-newsletter">
+<div class="dim-backg"></div>
+<div class="center-modal">
+<div class="x-close"></div>
+<div class="modal-content">
+<div class="content">
+<h3>We know. It’s a lot to take in.</h3>
+<p>Sign up for our newsletter and read at your own pace.</p>
+<form class="greenhouse-form standalone-newsletter-form js-standalone-newsletter-form" method="post">
+<div class="field-container js-field-container">
+<div class="field-wrap-col-2">
+<div class="field-wrap js-field-wrap">
+<label class="field-label" for="owner[email]">Email address</label><input type="email" class="email required js-field" id="owner[email]" name="owner[email]" autocomplete="email" placeholder="" tabindex="0" /><div class="field-error js-field-error">Please enter a valid email address</div> </div>
+<div class="field-wrap field-wrap-submit">
+<a href="#" class="form-submit-btn js-submit-btn js-standalone-newsletter-subscribe button button-medium button-primary-default" type="submit">Subscribe</a> </div>
+</div>
+<div class="field-wrap opt-in-field js-opt-in-field">
+<div class="field-wrap js-field-wrap opt-in-checkbox js-opt-in-checkbox" data-force="">
+<label class="checkbox-container">
+<input type="checkbox" class="js-opt-in-checkbox js-field" id="optinToMarketing" name="optinToMarketing" checked value="TRUE">
+<span class="custom-check"></span>
+Please also send me occasional emails about Zendesk products and services. (You can unsubscribe at any time.) </label>
+</div>
+<div class="field-wrap js-field-wrap opt-in-radio js-opt-in-radio">
+<div class="radio-button-container js-radio-button-container">
+<span class="radio-button-copy">Please also send me occasional emails about Zendesk products and services. (You can unsubscribe at any time.)</span>
+<div class="radio-button-fields js-radio-button-fields">
+<label class="radio-label" for="optinToMarketing-TRUE">Yes <input class="js-opt-in-radio js-field required" type="radio" name="optinToMarketing" id="optinToMarketing-TRUE" value="TRUE">
+<span class="custom-radio"></span>
+</label>
+<label class="radio-label" for="optinToMarketing-FALSE">No <input class="js-opt-in-radio js-field required" type="radio" name="optinToMarketing" id="optinToMarketing-FALSE" value="FALSE">
+<span class="custom-radio"></span>
+</label>
+</div>
+<div class="field-error js-field-error">Please select an option</div> </div>
+</div>
+</div>
+<div style="display: none;">
+<input type="hidden" name="Web_Offer_Name__c" id="Web_Offer_Name__c" value="How to create a CRM database" /><input type="hidden" name="GA_Medium" id="GA_Medium" value="" /><input type="hidden" name="GA_Source" id="GA_Source" value="" /><input type="hidden" name="Opti_ID" id="Opti_ID" value="" /><input type="hidden" name="Opti_Variation_ID" id="Opti_Variation_ID" value="" /><input type="hidden" name="trial_extras[Opti_ID]" id="trial_extras[Opti_ID]" value="" /><input type="hidden" name="trial_extras[Opti_Variation_ID]" id="trial_extras[Opti_Variation_ID]" value="" /><input type="hidden" name="trial_extras[SegmentAnonID]" id="trial_extras[SegmentAnonID]" value="" /><input type="hidden" name="trial_extras[Inferred_City]" id="trial_extras[Inferred_City]" value="" /><input type="hidden" name="trial_extras[Inferred_State]" id="trial_extras[Inferred_State]" value="" /><input type="hidden" name="trial_extras[Inferred_CCode]" id="trial_extras[Inferred_CCode]" value="" /><input type="hidden" name="trial_extras[Inferred_Country]" id="trial_extras[Inferred_Country]" value="" /><input type="hidden" name="trial_extras[Inferred_Zip]" id="trial_extras[Inferred_Zip]" value="" /><input type="hidden" name="trial_extras[Inferred_Region]" id="trial_extras[Inferred_Region]" value="" /><input type="hidden" name="trial_extras[Inferred_IP_Address]" id="trial_extras[Inferred_IP_Address]" value="" /><input type="hidden" name="address[postal]" id="address[postal]" value="" /><input type="hidden" name="rv_account" id="rv_account" value="" /><input type="hidden" name="rv_member" id="rv_member" value="" /><input type="hidden" name="partner_account" id="partner_account" value="" /><input type="hidden" name="partner_contact" id="partner_contact" value="" /><input type="hidden" name="location[Inferred_IP_Address]" id="location[Inferred_IP_Address]" value="" /><input type="hidden" name="trial_extras[DB_City__c]" id="trial_extras[DB_City__c]" value="" /><input type="hidden" name="trial_extras[DB_State__c]" id="trial_extras[DB_State__c]" value="" /><input type="hidden" name="trial_extras[DB_CCode__c]" id="trial_extras[DB_CCode__c]" value="" /><input type="hidden" name="trial_extras[Country__c]" id="trial_extras[Country__c]" value="" /><input type="hidden" name="trial_extras[DB_Zip__c]" id="trial_extras[DB_Zip__c]" value="" /><input type="hidden" name="trial_extras[Region__c]" id="trial_extras[Region__c]" value="" /><input type="hidden" name="trial_extras[First_Touch__c]" id="trial_extras[First_Touch__c]" /><input type="hidden" name="trial_extras[Last_Touch__c]" id="trial_extras[Last_Touch__c]" /><input type="hidden" name="timeStarted" id="timeStarted" value="" /><input type="hidden" name="timeDelta" id="timeDelta" value="" /><input type="hidden" name="timeEnded" id="timeEnded" value="" /><input type="hidden" name="industry" id="industry" value="" /><input type="hidden" name="MailingCountry" id="MailingCountry" value="" /><input type="hidden" name="owner[name]" id="owner[name]" value="" /><input type="hidden" name="last_page_before_lead" id="last_page_before_lead" value="" /><input type="hidden" name="current_page_url" id="current_page_url" value="" /> <input type="hidden" name="account[name]" id="account[name]" value="" /><input type="hidden" name="account[help_desk_size]" id="account[help_desk_size]" value="" /> <input type="hidden" name="elqCustomerGUID" id="elqCustomerGUID" value="" /><input type="hidden" name="elqCookieWrite" id="elqCookieWrite" value="0" /><input type="hidden" name="elqSiteId" id="elqSiteId" value="2136619493" /><input type="hidden" name="elqCampaignId" id="elqCampaignId" value="" /><input type="hidden" name="elqFormName" id="elqFormName" value="WebsiteNewsletterSignup_new" /> </div>
+</div>
+<div class="success-message js-success-message">
+<span class="icon-success"></span>
+<p>Welcome to the club!</p>
+</div>
+<div class="error-message js-error-message">
+<span class="icon-error"></span>
+<p>Oops! Sorry something went wrong, try again later?</p>
+</div>
+<div class="loading js-loading">
+<div class="loading-inner">
+<span class="loading-img"></span>
+</div>
+</div>
+</form> </div>
+</div>
+</div>
+</div>
+<script src="../../../web-assets.zendesk.com/js/ouibounce.min.f91b9be1.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script><script src="../../../web-assets.zendesk.com/js/ouibounce-config.min.28636f92.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script><script src="../../../web-assets.zendesk.com/js/forms/newsletter-form-standalone.min.860b9d43.js" type="f6942dd39e1d340fbc096d88-text/javascript"></script>
+<script src="../../../ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="f6942dd39e1d340fbc096d88-|49" defer=""></script></body>
+
+<!-- Mirrored from www.zendesk.com/blog/create-crm-database/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Nov 2020 13:43:41 GMT -->
+</html>
